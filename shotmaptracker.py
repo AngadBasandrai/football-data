@@ -73,4 +73,8 @@ plot_kde(axs[2], miss_x, miss_y, "Misses")
 
 fig.suptitle(f"Shot Heatmaps for {short_name}", fontsize=17)
 plt.tight_layout()
-plt.show()
+save_path = os.path.join(DATA_DIR, "shot_heatmaps", f"{short_name}_heatmap.png")
+os.makedirs(os.path.dirname(save_path), exist_ok=True)
+plt.savefig(save_path, dpi=300, bbox_inches="tight")
+print(f"Saved heatmap to {save_path}")
+# plt.show()  # optional, if you still want to display it

@@ -67,4 +67,10 @@ for i, role in enumerate(roles):
 
 fig.suptitle("Shot Heatmaps by Role (World Cup)", fontsize=20)
 plt.tight_layout()
-plt.show()
+plt.tight_layout()
+save_path = os.path.join(DATA_DIR, "shot_heatmaps", "all_roles_heatmaps.png")
+os.makedirs(os.path.dirname(save_path), exist_ok=True)
+plt.savefig(save_path, dpi=300, bbox_inches="tight")
+print(f"Saved heatmap to {save_path}")
+# plt.show()  # optional
+

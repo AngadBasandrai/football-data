@@ -1,0 +1,79 @@
+StatsBomb Tag IDs and Meanings (Expanded)
+
+101  - Goal
+102  - Own goal
+201  - Penalty conceded
+301  - Assist
+302  - Secondary assist
+401  - Yellow card
+402  - Second yellow card (red card via second yellow)
+403  - Red card (straight red)
+501  - Ground attacking duel won
+502  - Ground attacking duel lost
+503  - Ground defending duel won
+504  - Ground defending duel lost
+601  - Shot on target
+602  - Shot off target
+701  - Duel won
+702  - Duel lost
+703  - Duel neutral (no winner)
+801  - Ball touch
+901  - Offside
+1001 - Corner awarded
+1101 - Substitution on
+1102 - Substitution off
+
+# The following 1201–1223 are mostly goalkeeper-related or other defensive actions:
+1201 - Goalkeeper save
+1202 - Goalkeeper smother
+1203 - Goalkeeper quick throw
+1204 - Goalkeeper quick throw unsuccessful
+1205 - Goal kick
+1206 - Goal kick unsuccessful
+1207 - Goalkeeper pick-up
+1208 - Goalkeeper pick-up unsuccessful
+1209 - Goalkeeper throw
+1210 - Goalkeeper throw unsuccessful
+1211 - Goalkeeper punch
+1212 - Goalkeeper punch unsuccessful
+1213 - Goalkeeper drop ball
+1214 - Goalkeeper drop ball unsuccessful
+1215 - Goalkeeper catch
+1216 - Goalkeeper catch unsuccessful
+1217 - Goalkeeper clearance
+1218 - Goalkeeper clearance unsuccessful
+1219 - Goalkeeper cross claim
+1220 - Goalkeeper cross claim unsuccessful
+1221 - Goalkeeper save recovery
+1222 - Goalkeeper save recovery unsuccessful
+1223 - Goalkeeper layoff
+
+1301 - Shot blocked
+1302 - Shot blocked by keeper
+
+1401 - Foul committed
+
+1601 - Shot hit post
+
+1701 - Dribble success
+1702 - Dribble fail
+1703 - Nutmeg (successful dribble through opponent’s legs)
+
+1801 - Success (generic success tag)
+1802 - Fail (generic fail tag)
+
+1901 - Cross accurate
+2001 - Cross inaccurate
+
+2101 - Penalty scored (some sources differentiate this from general goal)
+
+---
+
+Notes:
+
+- Tag IDs 1201–1223 cover detailed goalkeeper actions, each with "success" and sometimes "unsuccessful" variants.
+- Tags 1901 and 2001 relate to crosses' accuracy.
+- 1703 (Nutmeg) is a special kind of dribble.
+- 2101 sometimes appears as a specific penalty scored tag (in addition to 101 Goal).
+- Generic success/fail tags (1801 and 1802) are often present together with specific ones.
+- Some tags may vary by dataset version or competition.
