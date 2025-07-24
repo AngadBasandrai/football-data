@@ -12,12 +12,18 @@ This repository provides tools and scripts for analyzing football player perform
 ## 🚀 Features
 
 - Heatmaps and directional maps for all player events
-<img src="player_event_data/T. Kroos_data/Duel_combined.png"/>
+
 - Player ratings for technical actions: crossing, passing, etc.
-<img src="images/longpass.png">
+
 - Match-aware metrics with consistency and turnover modeling
+
 - Role-based contextual normalization for fairness across positions
+
 - Modular Python scripts for easy customization and extension
+
+<img src="player_event_data/T. Kroos_data/Duel_combined.png"/>
+<img src="images/longpass.png">
+
 
 ## ⚙️ How Rating Works
 
