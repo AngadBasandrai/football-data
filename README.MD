@@ -67,6 +67,8 @@ You can modify:
 
 For questions or feedback, reach out at: **angadbsaandrai@gmail.com**
 
+## License [![License](http://img.shields.io/:license-gpl3-blue.svg?style=flat-square)]([http://badges.mit-license.org](https://www.gnu.org/licenses/gpl-3.0.en.html#license-text))
+
 <p align="center">
 	Made with :heart: by <a href="https://github.com/AngadBasandrai" target="_blank">Angad Basandrai</a>
 </p>
