@@ -2,12 +2,14 @@ import os
 import json
 import math
 import codecs
+import pandas as pd
 from collections import defaultdict
 
 # === SETTINGS ===
-DATA_DIR = "./"  # Set your dataset root directory here
+DATA_DIR = "./"
 EVENTS_DIR = os.path.join(DATA_DIR, "events")
 PLAYERS_FILE = os.path.join(DATA_DIR, "data/players.json")
+PRIMARY_POS_FILE = os.path.join(DATA_DIR, "positions/player_primary_positions.csv")
 OUTPUT_FILE = os.path.join(DATA_DIR, "ratings/player_long_passing_rating.csv")
 
 LONG_PASS_THRESHOLD_YARDS = 25
@@ -15,20 +17,13 @@ FIELD_SCALE_X = 1.2  # x: 100 → 120 yards
 FIELD_SCALE_Y = 0.8  # y: 100 → 80 yards
 
 PASS_TAG_ID = 1801
-SMART_PASS_TAG_ID = 901
+THROUGH_PASS_TAG_ID = 901
 ASSIST_TAG_ID = 302
 FREE_KICK_TAG_ID = 801
 
-ROLE_MAP = {
-    "GK": "GK", "GKP": "GK",
-    "DF": "DF", "DEF": "DF",
-    "MD": "MD", "MID": "MD",
-    "FW": "FW", "FWD": "FW",
-}
-
 WEIGHTS = {
     "long_pass_accuracy": 0.6,
-    "long_smart_pass_accuracy": 0.35,
+    "long_THROUGH_PASS_accuracy": 0.35,
     "long_pass_assists": 0.2,
     "freekick_accuracy": 0.05,
     "consistency": 0.15,
@@ -44,7 +39,7 @@ PRIOR_WEIGHT_K = 20  # For Bayesian shrinkage on final rating
 SMOOTH_PRIORS = {
     "long_pass_acc": (0.6, 20),
     "freekick_acc": (0.7, 10),
-    "long_smart_pass_acc": (0.5, 10),
+    "long_THROUGH_PASS_acc": (0.5, 10),
 }
 
 def smooth_ratio(success, total, prior_mean, prior_weight):
@@ -68,27 +63,29 @@ def calculate_consistency(attempts_per_match, success_per_match):
     stddev = math.sqrt(sum((a - mean) ** 2 for a in accs) / (len(accs) - 1))
     return max(0.0, 1.0 - stddev / mean) if mean else 0.0
 
+def csv_escape(s):
+    s = str(s)
+    return f'"{s.replace("\"", "\"\"")}"' if "," in s or '"' in s else s
+
 # === Load players ===
 print("Loading players...")
 with open(PLAYERS_FILE, encoding="utf-8") as f:
     players_raw = json.load(f)
 
 players = {}
-player_roles = {}
 for p in players_raw:
     pid = p["wyId"]
-    name = p.get("shortName") or f'{p.get("firstName", "")} {p.get("lastName", "")}'
+    name = p.get("shortName") or f'{p.get("firstName", "")} {p.get("lastName", "")}'.strip()
     if "\\u" in name:
         try:
             name = codecs.decode(name, "unicode_escape")
         except Exception:
             pass
     players[pid] = name
-    role = p.get("role", {}).get("code3") or p.get("role", {}).get("code2") or "Unknown"
-    role = ROLE_MAP.get(role.upper(), "Unknown")
-    player_roles[pid] = role
 
-print(f"Loaded {len(players)} players.")
+print("Loading primary positions...")
+position_df = pd.read_csv(PRIMARY_POS_FILE)
+primary_position = dict(zip(position_df.playerId, position_df.best_fit_role))
 
 # === Initialize stats ===
 stats = defaultdict(lambda: {
@@ -96,8 +93,8 @@ stats = defaultdict(lambda: {
     "long_total": 0,
     "long_success": 0,
     "long_assists": 0,
-    "long_smart_total": 0,
-    "long_smart_success": 0,
+    "long_through_total": 0,
+    "long_through_success": 0,
     "freekick_total": 0,
     "freekick_success": 0,
     "long_pass_attempts_per_match": defaultdict(int),
@@ -131,7 +128,7 @@ for ef in event_files:
         tags = [t.get("id") for t in e.get("tags", [])]
         success = PASS_TAG_ID in tags
         is_freekick = FREE_KICK_TAG_ID in tags
-        is_smart = SMART_PASS_TAG_ID in tags
+        is_through = THROUGH_PASS_TAG_ID in tags
         is_assist = ASSIST_TAG_ID in tags
 
         s = stats[pid]
@@ -149,10 +146,10 @@ for ef in event_files:
                 s["long_success"] += 1
                 s["long_pass_success_per_match"][mid] += 1
 
-            if is_smart:
-                s["long_smart_total"] += 1
+            if is_through:
+                s["long_through_total"] += 1
                 if success:
-                    s["long_smart_success"] += 1
+                    s["long_through_success"] += 1
 
             if is_assist:
                 s["long_assists"] += 1
@@ -168,43 +165,43 @@ for pid, s in stats.items():
         continue
 
     long_acc = smooth_ratio(s["long_success"], s["long_total"], *SMOOTH_PRIORS["long_pass_acc"])
-    smart_acc = smooth_ratio(s["long_smart_success"], s["long_smart_total"], *SMOOTH_PRIORS["long_smart_pass_acc"])
+    through_acc = smooth_ratio(s["long_through_success"], s["long_through_total"], *SMOOTH_PRIORS["long_THROUGH_PASS_acc"])
     freekick_acc = smooth_ratio(s["freekick_success"], s["freekick_total"], *SMOOTH_PRIORS["freekick_acc"])
     assists_pg = s["long_assists"] / games
     turnover = 1 - long_acc
     consistency = calculate_consistency(s["long_pass_attempts_per_match"], s["long_pass_success_per_match"])
 
-    if games < 5:
-        game_bonus = MIN_GAME_PENALTY
-    elif games >= GAMES_FOR_MAX_EFFECT:
-        game_bonus = MAX_GAME_BONUS
-    else:
-        game_bonus = MAX_GAME_BONUS * (games / GAMES_FOR_MAX_EFFECT)
+    game_bonus = (
+        MAX_GAME_BONUS if games >= GAMES_FOR_MAX_EFFECT
+        else MIN_GAME_PENALTY if games < 5
+        else MAX_GAME_BONUS * (games / GAMES_FOR_MAX_EFFECT)
+    )
 
-    rating = 0
-    rating += WEIGHTS["long_pass_accuracy"] * long_acc
-    rating += WEIGHTS["long_smart_pass_accuracy"] * smart_acc
-    rating += WEIGHTS["long_pass_assists"] * assists_pg
-    rating += WEIGHTS["freekick_accuracy"] * freekick_acc
-    rating += WEIGHTS["consistency"] * consistency
-    rating += WEIGHTS["turnover_rate"] * turnover
-    rating += WEIGHTS["games_played_bonus"] * game_bonus
+    rating = (
+        WEIGHTS["long_pass_accuracy"] * long_acc +
+        WEIGHTS["long_THROUGH_PASS_accuracy"] * through_acc +
+        WEIGHTS["long_pass_assists"] * assists_pg +
+        WEIGHTS["freekick_accuracy"] * freekick_acc +
+        WEIGHTS["consistency"] * consistency +
+        WEIGHTS["turnover_rate"] * turnover +
+        WEIGHTS["games_played_bonus"] * game_bonus
+    )
 
     raw_ratings[pid] = rating
     games_played[pid] = games
 
-# === Apply Bayesian smoothing to final ratings ===
+# === Apply Bayesian smoothing and write output ===
 mean_rating = sum(raw_ratings.values()) / len(raw_ratings) if raw_ratings else 0
-output_lines = ["Player,Role,Games,LongPassAcc,LongSmartPassAcc,LongPassAssistsPerGame,FreeKickAcc,Consistency,TurnoverRate,Rating"]
+output_lines = ["Player,PrimaryPosition,Games,LongPassAcc,LongthroughPassAcc,LongPassAssistsPerGame,FreeKickAcc,Consistency,TurnoverRate,Rating"]
 
 for pid, raw in raw_ratings.items():
     s = stats[pid]
     name = players[pid]
-    role = player_roles[pid]
+    pos = primary_position.get(pid, "Unknown")
     games = games_played[pid]
 
     long_acc = smooth_ratio(s["long_success"], s["long_total"], *SMOOTH_PRIORS["long_pass_acc"])
-    smart_acc = smooth_ratio(s["long_smart_success"], s["long_smart_total"], *SMOOTH_PRIORS["long_smart_pass_acc"])
+    through_acc = smooth_ratio(s["long_through_success"], s["long_through_total"], *SMOOTH_PRIORS["long_THROUGH_PASS_acc"])
     freekick_acc = smooth_ratio(s["freekick_success"], s["freekick_total"], *SMOOTH_PRIORS["freekick_acc"])
     assists_pg = s["long_assists"] / games if games else 0
     turnover = 1 - long_acc
@@ -213,14 +210,10 @@ for pid, raw in raw_ratings.items():
     smoothed_rating = (games * raw + PRIOR_WEIGHT_K * mean_rating) / (games + PRIOR_WEIGHT_K)
     smoothed_rating = min(100.000, max(0.000, smoothed_rating * 100))
 
-    def csv_escape(s):
-        s = str(s)
-        return f'"{s.replace("\"", "\"\"")}"' if "," in s or '"' in s else s
-
     output_lines.append(",".join([
-        csv_escape(name), role, str(games),
+        csv_escape(name), pos, str(games),
         f"{long_acc:.3f}",
-        f"{smart_acc:.3f}",
+        f"{through_acc:.3f}",
         f"{assists_pg:.3f}",
         f"{freekick_acc:.3f}",
         f"{consistency:.3f}",

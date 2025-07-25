@@ -2,6 +2,7 @@ import os
 import json
 import math
 import codecs
+import pandas as pd
 from collections import defaultdict
 from statistics import mean, stdev
 
@@ -9,6 +10,7 @@ from statistics import mean, stdev
 DATA_DIR = "./"
 EVENTS_DIR = os.path.join(DATA_DIR, "events")
 PLAYERS_FILE = os.path.join(DATA_DIR, "data/players.json")
+PRIMARY_POS_FILE = os.path.join(DATA_DIR, "positions/player_primary_positions.csv")
 OUTPUT_FILE = os.path.join(DATA_DIR, "ratings/player_crossing_rating.csv")
 
 # === TAGS ===
@@ -90,6 +92,11 @@ for p in players_raw:
 
 print(f"Loaded {len(players)} players.")
 
+# === Load primary positions for visual only ===
+print("Loading primary positions...")
+position_df = pd.read_csv(PRIMARY_POS_FILE)
+primary_position = dict(zip(position_df.playerId, position_df.best_fit_role))
+
 # === Initialize stats ===
 stats = defaultdict(lambda: {
     "matches": set(),
@@ -170,12 +177,10 @@ for pid, s in stats.items():
     games_played[pid] = games
     intermediate_metrics[pid] = (acc, crosses_pg, keypasses_pg, consistency, turnover)
 
-# === Role-wise normalization with light global anchoring (mean = 65, std = 10)
+# === Role-wise normalization with light global anchoring ===
 print("Normalizing ratings by role with light global anchoring...")
+ANCHOR_WEIGHT = 0.2
 
-ANCHOR_WEIGHT = 0.2  # 20% weight toward global distribution
-
-# Global stats
 all_ratings = list(raw_ratings.values())
 global_mean = mean(all_ratings)
 global_std = stdev(all_ratings)
@@ -207,21 +212,20 @@ for role, players_in_role in role_groups.items():
         norm_score = max(0.0, min(100.0, norm_score))
         normalized_ratings[pid] = norm_score
 
-
-# === Final output with Bayesian smoothing on normalized rating
+# === Final output ===
 print("Writing to output file...")
-output_lines = ["Player,Role,Games,CrossAccuracy,CrossesPerGame,KeyPassesPerGame,Consistency,TurnoverRate,Rating"]
+output_lines = ["Player,PrimaryPosition,Games,CrossAccuracy,CrossesPerGame,KeyPassesPerGame,Consistency,TurnoverRate,Rating"]
 
 for pid, base_score in normalized_ratings.items():
     name = players[pid]
-    role = player_roles[pid]
+    primary_pos = primary_position.get(pid, "Unknown")
     games = games_played[pid]
     acc, crosses_pg, keypasses_pg, consistency, turnover = intermediate_metrics[pid]
 
     smoothed_rating = (games * base_score + PRIOR_WEIGHT_K * 65) / (games + PRIOR_WEIGHT_K)
 
     output_lines.append(",".join([
-        csv_escape(name), role, str(games),
+        csv_escape(name), primary_pos, str(games),
         f"{acc:.3f}",
         f"{crosses_pg:.3f}",
         f"{keypasses_pg:.3f}",

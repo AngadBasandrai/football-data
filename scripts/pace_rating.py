@@ -2,12 +2,14 @@ import os
 import json
 import math
 import codecs
+import pandas as pd
 from collections import defaultdict
 
 # === SETTINGS ===
 DATA_DIR = "./"
 EVENTS_DIR = os.path.join(DATA_DIR, "events")
 PLAYERS_FILE = os.path.join(DATA_DIR, "data/players.json")
+PRIMARY_POS_FILE = os.path.join(DATA_DIR, "positions/player_primary_positions.csv")
 OUTPUT_FILE = os.path.join(DATA_DIR, "ratings/player_pace_rating.csv")
 
 # === ROLE MAP ===
@@ -28,17 +30,15 @@ WEIGHTS = {
     "counterattacks": 0.13,
 }
 
-
 CARRY_DISTANCE_THRESHOLD = 20.0  # meters
 
 def boost(score, a=1):
-    base = 100 * score / (score + 1)
+    base = 100 * score / (score + 1.3)
     if score > 7:
-        rating = base + math.log2(score - 6) * 1.5  # Stretch top
+        rating = base + math.log2(score - 6) * 3  # Stretch top
     else:
         rating = base
     return rating
-
 
 # === Load players ===
 print("Loading players...")
@@ -59,6 +59,15 @@ for p in players_raw:
     player_roles[pid] = ROLE_MAP.get(role.upper(), "Unknown")
 
 print(f"Loaded {len(players)} players.")
+
+# === Load primary positions for display only ===
+print("Loading primary positions...")
+primary_position = {}
+try:
+    position_df = pd.read_csv(PRIMARY_POS_FILE)
+    primary_position = dict(zip(position_df.playerId, position_df.best_fit_role))
+except Exception as e:
+    print("Warning: Could not load primary positions:", e)
 
 # === Initialize stats ===
 stats = defaultdict(lambda: {
@@ -151,17 +160,16 @@ for pid, s in stats.items():
     raw_rating = boost(raw_score)
     raw_rating = min(100.000, max(30.000, raw_rating))
 
-
     ratings.append((pid, raw_rating, games, accels_pg, long_carries_pg, duels_pg, wide_runs_pg, counter_pg, avg_carry_dist))
 
 # === Write Output ===
 print("Writing output...")
 os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-    f.write("Player,Role,Games,Accelerations,LongCarries,Duels,WideRuns,CounterAttacks,AvgCarryDistance,RawRating\n")
+    f.write("Player,PrimaryPosition,Games,Accelerations,LongCarries,Duels,WideRuns,CounterAttacks,AvgCarryDistance,RawRating\n")
     for pid, rating, g, a, lc, d, w, c, dist in ratings:
         name = players[pid].replace('"', "'")
-        role = player_roles.get(pid, "Unknown")
-        f.write(f"{name},{role},{g},{a:.2f},{lc:.2f},{d:.2f},{w:.2f},{c:.2f},{dist:.2f},{rating:.3f}\n")
+        primary_pos = primary_position.get(pid, "Unknown")
+        f.write(f"{name},{primary_pos},{g},{a:.2f},{lc:.2f},{d:.2f},{w:.2f},{c:.2f},{dist:.2f},{rating:.3f}\n")
 
 print("Done.")

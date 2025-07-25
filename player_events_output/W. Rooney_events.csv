@@ -1,0 +1,2250 @@
+eventName,subEventName,startX,startY,endX,endY,tags
+Pass,Simple pass,69,91,75,100,1802
+Duel,Ground attacking duel,39,95,44,95,"701, 1802"
+Duel,Ground defending duel,44,95,44,94,"701, 1802"
+Foul,Foul,44,94,44,95,
+Duel,Ground loose ball duel,59,67,58,70,"701, 1802"
+Others on the ball,Clearance,3,42,0,49,"1401, 1802"
+Others on the ball,Clearance,8,63,38,32,"1401, 1802"
+Duel,Ground loose ball duel,32,72,26,69,"701, 1802"
+Duel,Ground loose ball duel,88,27,84,30,"703, 1801"
+Pass,Head pass,23,63,31,97,1801
+Duel,Ground defending duel,34,33,37,31,"701, 1802"
+Foul,Foul,37,31,34,33,
+Pass,Simple pass,70,78,74,60,1801
+Pass,Simple pass,68,83,66,38,1801
+Pass,Simple pass,49,75,34,80,1801
+Pass,Simple pass,54,92,61,79,1801
+Free Kick,Throw in,71,100,60,92,1801
+Free Kick,Corner,100,0,83,59,"801, 1801"
+Pass,Simple pass,53,75,41,75,1801
+Pass,Simple pass,48,26,66,7,1801
+Others on the ball,Touch,56,34,71,25,
+Pass,Simple pass,71,25,80,5,1801
+Duel,Ground attacking duel,74,25,71,26,"501, 702, 1801"
+Duel,Ground loose ball duel,71,26,70,30,"702, 1801"
+Duel,Ground loose ball duel,70,30,62,25,"702, 1801"
+Pass,Simple pass,51,93,42,85,1801
+Duel,Ground attacking duel,55,86,56,84,"503, 703, 1801"
+Pass,Smart pass,63,87,99,74,1802
+Pass,Simple pass,62,15,46,15,1801
+Free Kick,Free kick cross,64,79,99,44,"801, 1802"
+Duel,Air duel,4,39,24,16,"703, 1801"
+Duel,Ground defending duel,62,79,70,84,"601, 702, 1801"
+Pass,High pass,44,52,80,85,1802
+Pass,Simple pass,64,86,74,84,1801
+Others on the ball,Touch,84,77,87,73,
+Duel,Ground defending duel,87,73,83,66,"504, 601, 701, 1802"
+Duel,Ground attacking duel,55,16,48,29,"702, 1801"
+Pass,Simple pass,48,29,50,79,1801
+Pass,Cross,94,99,92,35,"402, 801, 1801"
+Duel,Ground defending duel,26,13,35,26,"503, 703, 1801"
+Pass,Simple pass,35,26,33,43,1801
+Pass,Simple pass,69,68,66,76,1801
+Shot,Shot,94,49,0,0,"101, 403, 201, 1203, 1801"
+Pass,Simple pass,50,51,27,30,1801
+Duel,Ground defending duel,16,83,14,70,"1601, 701, 1802"
+Pass,Simple pass,65,90,48,72,1801
+Pass,Simple pass,57,97,40,95,1801
+Free Kick,Corner,100,100,91,36,"801, 1802"
+Duel,Ground attacking duel,92,93,91,92,"502, 701, 1802"
+Pass,Simple pass,28,88,35,94,1802
+Pass,Smart pass,56,68,89,63,"302, 1901, 901, 1801"
+Others on the ball,Touch,79,86,71,79,1302
+Free Kick,Free kick cross,80,95,83,51,"801, 1802"
+Pass,Simple pass,56,61,76,93,1801
+Pass,High pass,70,81,97,17,1801
+Duel,Ground attacking duel,15,79,19,91,"503, 702, 1801"
+Duel,Ground loose ball duel,19,91,19,91,"701, 1802"
+Duel,Ground attacking duel,13,92,10,93,"702, 1801"
+Pass,Simple pass,10,93,7,87,1801
+Others on the ball,Touch,47,79,81,85,
+Pass,Simple pass,81,85,70,81,1801
+Pass,Simple pass,74,89,91,91,1801
+Pass,Simple pass,75,24,62,24,1801
+Pass,High pass,62,28,86,69,"901, 1802"
+Pass,Smart pass,40,38,93,27,"1901, 901, 1801"
+Pass,Simple pass,63,66,78,85,1801
+Pass,Simple pass,51,90,34,69,1801
+Pass,Simple pass,56,93,53,84,1801
+Pass,Simple pass,54,65,46,72,1801
+Pass,Launch,16,85,52,65,1801
+Pass,Simple pass,77,35,71,47,"1901, 1801"
+Duel,Ground attacking duel,80,54,74,40,"504, 701, 1802"
+Pass,High pass,56,68,81,33,"1901, 901, 1802"
+Free Kick,Corner,100,0,92,70,"801, 1801"
+Pass,Cross,90,72,89,36,"402, 801, 1801"
+Pass,Simple pass,75,55,70,44,1801
+Pass,Cross,97,78,81,65,"1901, 402, 801, 1801"
+Duel,Ground loose ball duel,91,71,91,35,"1901, 701, 1802"
+Free Kick,Corner,100,100,95,58,"801, 1801"
+Others on the ball,Touch,34,57,40,49,
+Duel,Ground loose ball duel,40,49,39,48,"701, 1802"
+Pass,Smart pass,35,30,96,57,"901, 1802"
+Pass,Simple pass,62,57,76,92,1801
+Pass,Cross,97,84,87,40,"402, 801, 1801"
+Pass,Simple pass,50,65,40,78,1801
+Pass,Simple pass,45,39,47,32,1801
+Duel,Ground attacking duel,41,39,42,41,"703, 1801"
+Pass,Simple pass,71,87,74,73,1801
+Duel,Ground attacking duel,69,90,78,100,"501, 702, 1801"
+Duel,Ground defending duel,21,66,30,47,"504, 703, 1801"
+Pass,Simple pass,47,86,88,74,1801
+Duel,Ground attacking duel,67,64,66,66,"703, 1801"
+Pass,High pass,74,61,98,72,1801
+Pass,Simple pass,79,91,84,86,1801
+Pass,Simple pass,43,26,41,8,1801
+Duel,Ground defending duel,37,9,31,5,"503, 702, 1801"
+Duel,Air duel,41,11,38,8,"701, 1802"
+Pass,Simple pass,41,11,36,5,1801
+Others on the ball,Touch,9,61,100,100,1401
+Duel,Air duel,57,31,36,34,"701, 1802"
+Duel,Ground loose ball duel,67,7,70,14,"701, 1802"
+Duel,Ground loose ball duel,93,91,32,45,"703, 1801"
+Pass,High pass,39,68,95,93,"1901, 1801"
+Duel,Ground attacking duel,74,69,71,80,"1901, 602, 702, 1801"
+Pass,Simple pass,71,80,79,98,"1901, 1801"
+Free Kick,Corner,100,100,91,43,"801, 1801"
+Duel,Air duel,72,83,68,75,"701, 1802"
+Duel,Ground attacking duel,95,95,67,71,"702, 1801"
+Pass,Simple pass,67,71,63,93,1801
+Pass,Simple pass,65,87,61,87,1801
+Duel,Ground defending duel,67,82,59,77,"701, 1802"
+Pass,Simple pass,62,94,67,99,1801
+Pass,Simple pass,65,91,56,85,1801
+Pass,Simple pass,70,74,63,80,1801
+Pass,Simple pass,39,23,34,62,1801
+Free Kick,Free kick cross,72,95,100,37,"801, 1802"
+Pass,High pass,45,54,84,10,"1901, 1801"
+Duel,Ground attacking duel,71,78,66,75,"602, 701, 1802"
+Shot,Shot,90,58,100,100,"101, 1901, 401, 201, 1202, 1801"
+Pass,Simple pass,67,75,38,53,"1401, 1801"
+Pass,Simple pass,68,86,39,91,1801
+Pass,Simple pass,44,38,41,12,1801
+Pass,Simple pass,43,39,38,65,"2001, 1802"
+Free Kick,Free kick cross,66,18,86,55,"302, 801, 1801"
+Others on the ball,Touch,45,23,38,0,1401
+Duel,Ground defending duel,92,88,33,17,"703, 1801"
+Offside,,73,36,100,100,
+Pass,Simple pass,50,51,33,37,1801
+Duel,Ground attacking duel,91,89,30,20,"503, 701, 1802"
+Pass,Simple pass,28,6,30,14,1802
+Others on the ball,Touch,29,3,37,4,
+Pass,Smart pass,64,20,79,50,"1901, 901, 1802"
+Pass,Simple pass,42,24,87,51,"1001, 1802"
+Duel,Air duel,93,88,76,5,"703, 1801"
+Pass,Simple pass,85,88,98,99,1802
+Pass,High pass,39,63,87,83,"1901, 1801"
+Pass,Simple pass,32,28,28,16,1801
+Others on the ball,Touch,25,95,90,97,
+Duel,Ground loose ball duel,28,87,30,87,"703, 1801"
+Pass,Simple pass,30,87,92,98,1801
+Pass,Simple pass,72,81,68,58,1801
+Pass,Head pass,46,92,64,77,1802
+Pass,Simple pass,65,88,56,91,1801
+Pass,Simple pass,66,93,66,90,1802
+Shot,Shot,71,93,100,100,"402, 1216, 1802"
+Duel,Air duel,89,52,88,56,"703, 1801"
+Shot,Shot,88,56,100,100,"403, 201, 1201, 1801"
+Duel,Ground defending duel,27,81,29,87,"701, 1802"
+Foul,Foul,29,87,27,81,
+Duel,Ground loose ball duel,68,85,71,87,"703, 1801"
+Pass,Simple pass,71,87,89,89,1801
+Duel,Ground attacking duel,81,82,81,84,"702, 1801"
+Duel,Ground attacking duel,81,84,84,87,"701, 1802"
+Foul,Foul,84,87,81,84,
+Foul,Protest,85,87,100,100,1702
+Others on the ball,Touch,25,70,25,53,1401
+Pass,Simple pass,73,94,74,95,1802
+Duel,Ground loose ball duel,70,92,71,100,"702, 1801"
+Duel,Ground defending duel,97,98,84,82,"502, 701, 1802"
+Duel,Ground attacking duel,77,75,73,70,"701, 1802"
+Pass,Simple pass,59,24,48,30,1801
+Pass,Simple pass,65,17,63,9,1801
+Duel,Air duel,64,74,63,66,"703, 1801"
+Pass,Simple pass,46,77,55,88,1801
+Duel,Ground loose ball duel,51,50,51,51,"701, 1802"
+Duel,Ground attacking duel,38,76,37,59,"702, 1801"
+Pass,Simple pass,37,59,31,48,1801
+Pass,Simple pass,56,54,57,79,1801
+Pass,Simple pass,59,66,54,37,1801
+Others on the ball,Touch,62,66,51,55,
+Duel,Ground loose ball duel,51,55,33,61,"701, 1802"
+Pass,Simple pass,33,60,39,84,1801
+Pass,Simple pass,41,71,36,89,1801
+Free Kick,Free Kick,66,77,59,74,1801
+Pass,Simple pass,60,85,38,69,1801
+Duel,Ground attacking duel,64,47,85,71,"703, 1801"
+Duel,Ground attacking duel,85,71,58,50,"701, 1802"
+Pass,Simple pass,64,80,54,87,1801
+Pass,Simple pass,75,23,67,15,1801
+Pass,Simple pass,56,37,62,27,1801
+Pass,High pass,59,30,82,97,1801
+Others on the ball,Touch,59,76,68,100,1302
+Duel,Ground loose ball duel,37,80,65,90,"702, 1801"
+Duel,Ground loose ball duel,65,90,71,95,"1601, 701, 1802"
+Pass,Simple pass,65,86,82,100,1802
+Pass,Simple pass,79,76,75,83,1801
+Pass,Simple pass,85,90,64,59,1801
+Pass,Simple pass,46,67,57,68,1801
+Pass,Simple pass,39,76,38,70,1802
+Others on the ball,Touch,73,77,65,94,
+Duel,Ground defending duel,65,94,71,71,"702, 1801"
+Duel,Air duel,62,79,41,100,"701, 1802"
+Free Kick,Throw in,66,0,61,7,1801
+Pass,Simple pass,66,10,72,9,1801
+Pass,Simple pass,65,17,46,17,1801
+Pass,Simple pass,73,62,79,78,1801
+Duel,Ground defending duel,61,94,62,89,"701, 1802"
+Foul,Foul,62,89,61,94,
+Pass,High pass,39,75,87,97,1802
+Duel,Air duel,70,75,66,69,"701, 1802"
+Foul,Foul,66,69,70,75,
+Pass,High pass,8,70,38,86,1801
+Duel,Ground attacking duel,85,96,84,94,"702, 1801"
+Duel,Ground attacking duel,84,94,78,100,"501, 702, 1801"
+Others on the ball,Acceleration,55,37,76,51,"1901, 1801"
+Pass,Simple pass,76,51,91,43,"302, 1801"
+Duel,Air duel,96,47,91,67,"701, 1802"
+Duel,Ground loose ball duel,62,85,59,69,"1601, 701, 1802"
+Pass,Simple pass,28,57,28,52,1801
+Pass,Simple pass,67,78,68,95,1801
+Pass,Simple pass,73,93,68,84,1801
+Pass,Simple pass,74,82,80,91,1801
+Pass,Cross,77,90,92,34,"402, 801, 1802"
+Duel,Ground loose ball duel,71,80,66,79,"701, 1802"
+Pass,Simple pass,74,73,73,73,1801
+Pass,Simple pass,48,70,40,76,1801
+Pass,High pass,40,81,84,24,1801
+Shot,Shot,79,53,100,100,"402, 1212, 1802"
+Pass,Head pass,47,13,43,7,1802
+Foul,Protest,40,19,,,1702
+Duel,Ground attacking duel,43,14,56,15,"502, 703, 1801"
+Pass,High pass,56,15,72,41,1801
+Duel,Ground attacking duel,70,76,74,76,"701, 1802"
+Duel,Ground attacking duel,66,45,64,42,"702, 1801"
+Pass,Simple pass,66,41,57,25,1801
+Free Kick,Free kick cross,62,15,86,27,"801, 1802"
+Others on the ball,Clearance,10,65,34,77,"1401, 1802"
+Pass,Head pass,88,45,87,56,1801
+Pass,Simple pass,75,71,74,54,"1901, 1801"
+Duel,Ground defending duel,33,53,31,30,"701, 1802"
+Duel,Air duel,92,63,87,100,"702, 1801"
+Pass,Head pass,73,93,67,88,1802
+Pass,Simple pass,48,16,38,31,1801
+Duel,Ground loose ball duel,65,30,71,22,"701, 1802"
+Duel,Ground loose ball duel,70,70,73,55,"701, 1802"
+Pass,Simple pass,48,31,50,61,"1901, 1801"
+Pass,Smart pass,68,71,93,77,"1901, 901, 1801"
+Duel,Ground attacking duel,30,72,23,65,"702, 1801"
+Pass,Simple pass,23,65,10,65,1801
+Pass,Head pass,60,73,52,92,1801
+Duel,Ground attacking duel,46,57,45,55,"502, 701, 1802"
+Pass,Simple pass,59,65,54,46,1801
+Duel,Air duel,9,43,32,17,"703, 1801"
+Pass,Simple pass,34,67,47,50,1801
+Pass,Simple pass,39,95,49,82,1801
+Pass,Cross,77,86,94,4,"402, 801, 1802"
+Duel,Ground loose ball duel,98,87,0,0,"702, 1801"
+Duel,Air duel,70,9,75,14,"702, 1801"
+Offside,,82,51,0,0,
+Pass,Simple pass,68,47,70,88,1801
+Duel,Air duel,94,45,100,100,"701, 1802"
+Pass,High pass,47,75,92,90,1801
+Others on the ball,Touch,18,47,18,47,
+Pass,Simple pass,58,18,61,19,"1401, 1801"
+Pass,Simple pass,50,49,30,77,1801
+Pass,Simple pass,73,91,71,82,1801
+Duel,Ground defending duel,28,66,24,60,"701, 1802"
+Duel,Ground loose ball duel,2,5,51,95,"1601, 701, 1802"
+Duel,Ground attacking duel,72,89,13,14,"701, 1802"
+Duel,Ground defending duel,13,14,75,86,"504, 701, 1802"
+Pass,Simple pass,73,65,68,67,1802
+Duel,Ground attacking duel,14,13,37,88,"702, 1801"
+Duel,Ground attacking duel,20,18,42,58,"702, 1801"
+Duel,Air duel,42,58,50,55,"701, 1802"
+Duel,Ground attacking duel,67,32,68,36,"703, 1801"
+Pass,Simple pass,68,36,54,43,1801
+Free Kick,Throw in,73,0,98,13,1801
+Duel,Ground defending duel,80,6,80,5,"1601, 701, 1802"
+Foul,Foul,80,5,80,6,
+Duel,Ground attacking duel,28,34,29,36,"503, 703, 1801"
+Duel,Ground attacking duel,64,32,55,40,"501, 703, 1801"
+Pass,High pass,55,40,70,71,1801
+Pass,Simple pass,61,16,66,10,1801
+Duel,Ground attacking duel,46,24,47,40,"703, 1801"
+Pass,Smart pass,47,40,72,82,"901, 1802"
+Duel,Ground loose ball duel,74,37,86,51,"701, 1802"
+Pass,High pass,39,97,73,61,1802
+Duel,Ground attacking duel,65,78,57,90,"702, 1801"
+Duel,Ground attacking duel,57,90,54,93,"703, 1801"
+Free Kick,Free Kick,47,94,89,84,1802
+Pass,Simple pass,68,95,70,71,1801
+Pass,Simple pass,70,94,63,66,1801
+Pass,Simple pass,69,63,79,68,1802
+Pass,Simple pass,47,83,46,37,1801
+Pass,Simple pass,37,49,44,71,1801
+Others on the ball,Touch,91,31,89,60,"201, 1302"
+Duel,Air duel,95,54,100,1,"702, 1801"
+Shot,Shot,93,51,0,0,"403, 201, 1214, 1802"
+Pass,Simple pass,76,93,66,79,1801
+Pass,Simple pass,66,83,57,97,1801
+Duel,Ground defending duel,7,7,59,95,"1601, 701, 1802"
+Foul,Foul,59,95,7,7,1702
+Duel,Ground defending duel,47,94,7,6,"701, 1802"
+Pass,Simple pass,42,89,2,3,1801
+Free Kick,Throw in,50,100,7,7,1802
+Others on the ball,Touch,88,36,84,33,
+Pass,Simple pass,76,36,77,33,1801
+Pass,Simple pass,77,33,67,45,1801
+Duel,Ground attacking duel,34,10,33,7,"602, 701, 1802"
+Pass,Simple pass,30,29,67,67,1801
+Pass,Simple pass,32,37,33,67,1801
+Duel,Ground attacking duel,34,55,55,53,"701, 1802"
+Pass,Simple pass,28,35,65,64,1801
+Duel,Air duel,46,76,70,33,"703, 1801"
+Duel,Ground attacking duel,46,52,30,65,"702, 1801"
+Pass,Head pass,37,6,33,22,1801
+Pass,Simple pass,42,34,56,69,1802
+Pass,Simple pass,48,43,59,64,1801
+Pass,Simple pass,64,62,66,53,1802
+Pass,Simple pass,58,66,68,82,1801
+Duel,Ground loose ball duel,97,60,97,62,"701, 1802"
+Foul,Foul,97,62,97,60,
+Others on the ball,Touch,63,64,52,54,
+Free Kick,Free Kick,52,13,33,28,1801
+Pass,Simple pass,69,52,63,51,1801
+Pass,Simple pass,38,65,72,91,"1901, 1801"
+Shot,Shot,86,51,100,100,"402, 201, 1212, 1802"
+Pass,Simple pass,45,68,45,69,1801
+Pass,Simple pass,41,70,34,71,1801
+Pass,Smart pass,74,66,77,70,"901, 1802"
+Duel,Ground attacking duel,72,80,66,82,"702, 1801"
+Pass,Simple pass,66,82,40,81,1801
+Pass,Simple pass,61,64,87,89,1801
+Duel,Air duel,66,42,57,38,"701, 1802"
+Duel,Ground attacking duel,65,34,62,28,"702, 1801"
+Pass,Simple pass,62,28,71,6,1801
+Pass,Simple pass,65,20,67,45,1801
+Duel,Air duel,55,57,77,78,"701, 1802"
+Pass,Simple pass,56,34,56,62,1801
+Duel,Air duel,63,55,64,83,"701, 1802"
+Pass,Simple pass,59,71,55,70,1801
+Pass,Simple pass,60,62,72,33,1802
+Pass,Simple pass,37,52,41,26,1801
+Pass,Simple pass,73,40,55,66,1801
+Pass,Simple pass,58,66,48,26,1801
+Pass,Simple pass,52,27,37,24,1801
+Pass,Simple pass,64,5,66,24,1801
+Duel,Ground attacking duel,23,47,27,45,"701, 1802"
+Duel,Ground attacking duel,23,54,21,62,"501, 703, 1801"
+Pass,Simple pass,21,62,8,51,1801
+Duel,Air duel,30,61,31,62,"703, 1801"
+Duel,Ground attacking duel,31,62,24,60,"702, 1801"
+Pass,Simple pass,24,60,28,16,1801
+Pass,Simple pass,28,43,23,52,1801
+Duel,Air duel,65,20,57,0,"701, 1802"
+Pass,Simple pass,62,62,58,79,1802
+Free Kick,Throw in,65,100,56,49,1801
+Duel,Ground attacking duel,68,16,69,21,"703, 1801"
+Pass,Simple pass,68,82,77,90,1801
+Others on the ball,Touch,81,68,90,61,
+Duel,Ground defending duel,90,61,94,59,"1601, 703, 1801"
+Shot,Shot,94,59,100,100,"401, 201, 1202, 1801"
+Pass,High pass,35,67,79,32,"901, 1802"
+Pass,Simple pass,61,25,65,39,1801
+Duel,Ground attacking duel,83,65,85,56,"502, 701, 1802"
+Pass,Simple pass,64,62,82,10,1801
+Pass,Simple pass,72,26,70,13,1802
+Duel,Ground loose ball duel,68,19,79,31,"703, 1801"
+Pass,Simple pass,79,31,72,41,1802
+Offside,,65,85,100,100,
+Others on the ball,Touch,62,13,70,29,
+Pass,High pass,70,29,98,95,1801
+Pass,Simple pass,68,11,61,32,1801
+Duel,Ground attacking duel,77,87,62,74,"503, 703, 1801"
+Pass,Simple pass,62,74,47,68,1801
+Pass,Simple pass,68,48,56,27,1801
+Pass,Simple pass,70,46,67,63,1802
+Pass,Simple pass,38,56,35,73,1801
+Pass,Simple pass,69,47,78,19,1801
+Duel,Ground loose ball duel,69,75,71,77,"703, 1801"
+Pass,Head pass,71,77,73,81,1802
+Duel,Ground attacking duel,59,64,58,68,"504, 703, 1801"
+Duel,Ground attacking duel,58,68,68,64,"703, 1801"
+Duel,Ground attacking duel,68,64,63,77,"702, 1801"
+Pass,Smart pass,77,44,84,57,"901, 1802"
+Pass,Simple pass,62,30,76,33,1801
+Others on the ball,Acceleration,55,14,82,25,1801
+Pass,Simple pass,82,25,88,14,1801
+Pass,Simple pass,76,24,71,44,1802
+Others on the ball,Clearance,13,42,52,61,1802
+Pass,Simple pass,34,30,33,41,1801
+Duel,Ground defending duel,79,77,76,61,"503, 701, 1802"
+Pass,Smart pass,45,88,64,82,"901, 1802"
+Duel,Ground attacking duel,34,74,32,67,"702, 1801"
+Pass,Simple pass,32,67,69,71,1801
+Pass,Simple pass,63,38,54,20,1801
+Duel,Ground defending duel,60,17,67,22,"701, 1802"
+Foul,Foul,67,22,60,17,
+Pass,Simple pass,38,99,59,95,1801
+Duel,Ground defending duel,23,96,19,92,"703, 1801"
+Pass,Simple pass,70,72,75,73,1801
+Pass,Simple pass,70,42,51,54,1801
+Pass,Simple pass,76,61,77,42,1801
+Pass,Simple pass,75,63,91,95,1801
+Duel,Ground defending duel,70,98,71,87,"703, 1801"
+Pass,Simple pass,71,87,74,87,1801
+Others on the ball,Touch,42,72,53,65,
+Others on the ball,Touch,48,65,44,50,1401
+Duel,Air duel,46,64,43,58,"703, 1801"
+Pass,Simple pass,67,89,72,71,1801
+Pass,Simple pass,65,74,68,64,1801
+Pass,Simple pass,34,86,38,86,1801
+Pass,Simple pass,38,86,37,64,1801
+Duel,Ground attacking duel,32,84,36,74,"503, 703, 1801"
+Duel,Ground attacking duel,36,74,39,75,"1901, 504, 703, 1801"
+Duel,Ground attacking duel,58,56,54,59,"702, 1801"
+Pass,Simple pass,54,59,47,50,1801
+Duel,Ground defending duel,51,99,54,95,"502, 701, 1802"
+Duel,Ground defending duel,34,99,26,98,"503, 703, 1801"
+Free Kick,Throw in,34,100,64,98,1801
+Pass,Simple pass,67,73,67,68,1801
+Pass,Simple pass,69,72,68,99,1801
+Pass,Simple pass,74,72,71,51,1801
+Pass,Simple pass,71,69,62,64,1801
+Duel,Ground attacking duel,55,41,57,36,"1901, 703, 1801"
+Pass,Simple pass,57,36,45,35,"1901, 1801"
+Pass,Simple pass,61,23,51,25,1801
+Others on the ball,Touch,63,69,58,80,1302
+Pass,Simple pass,62,97,59,77,1801
+Pass,Simple pass,68,74,100,94,1801
+Duel,Air duel,91,50,76,57,"701, 1802"
+Pass,Simple pass,40,99,59,84,1802
+Shot,Shot,94,65,0,0,"402, 201, 1210, 1802"
+Duel,Air duel,28,73,33,73,"703, 1801"
+Pass,Simple pass,34,60,43,95,1801
+Pass,Simple pass,55,54,51,58,"2001, 1802"
+Duel,Ground attacking duel,90,11,94,10,"703, 1801"
+Pass,Cross,94,10,0,0,"401, 2101, 1802"
+Duel,Air duel,56,40,51,13,"701, 1802"
+Duel,Air duel,47,90,52,91,"703, 1801"
+Pass,Simple pass,65,95,82,50,1801
+Pass,Simple pass,31,62,35,87,1801
+Pass,Simple pass,43,58,46,10,1801
+Pass,High pass,42,55,74,5,1801
+Others on the ball,Touch,91,54,95,56,
+Duel,Ground loose ball duel,95,56,91,67,"701, 1802"
+Free Kick,Corner,100,100,90,42,"801, 1801"
+Pass,Cross,65,89,0,0,"402, 801, 1802"
+Duel,Ground attacking duel,63,53,47,49,"701, 1802"
+Pass,Head pass,28,88,14,85,1801
+Pass,Simple pass,56,78,74,86,1801
+Pass,Simple pass,72,42,65,20,1801
+Pass,Cross,68,77,88,53,"402, 1802"
+Duel,Ground defending duel,46,64,33,40,"701, 1802"
+Others on the ball,Touch,27,33,48,54,
+Pass,Simple pass,48,54,60,15,1801
+Shot,Shot,73,62,0,0,"402, 2101, 1802"
+Pass,Simple pass,74,49,87,71,1801
+Pass,Simple pass,64,30,52,28,1801
+Pass,Simple pass,33,57,37,15,1801
+Shot,Shot,72,54,0,0,"402, 201, 1214, 1802"
+Duel,Air duel,38,27,42,37,"703, 1801"
+Pass,Cross,72,19,89,50,"402, 801, 1802"
+Duel,Air duel,95,47,95,49,"703, 1801"
+Shot,Shot,95,49,0,0,"403, 2101, 201, 1802"
+Pass,Simple pass,82,21,86,8,1801
+Others on the ball,Touch,97,29,95,31,
+Foul,Hand foul,95,31,0,0,
+Pass,Simple pass,29,18,60,31,1802
+Pass,Simple pass,69,66,79,33,1801
+Duel,Ground defending duel,67,52,67,50,"701, 1802"
+Foul,Foul,67,50,67,52,
+Pass,Simple pass,74,36,69,60,1801
+Duel,Ground defending duel,29,66,34,59,"601, 703, 1801"
+Free Kick,Free kick cross,67,94,89,45,"801, 1801"
+Pass,Simple pass,49,49,31,65,1801
+Pass,Simple pass,50,47,49,8,1801
+Pass,Simple pass,69,25,63,26,1801
+Pass,Simple pass,73,37,74,70,1801
+Pass,Simple pass,72,48,75,64,1801
+Pass,Simple pass,87,11,76,53,"1901, 1801"
+Pass,Simple pass,71,52,45,68,1801
+Duel,Ground attacking duel,37,4,44,6,"703, 1801"
+Pass,Simple pass,44,6,32,5,1801
+Duel,Ground attacking duel,68,57,64,37,"701, 1802"
+Duel,Air duel,57,25,60,18,"701, 1802"
+Duel,Ground attacking duel,65,22,62,23,"703, 1801"
+Pass,Simple pass,83,36,89,54,"1001, 1802"
+Duel,Ground attacking duel,52,74,47,76,"501, 701, 1802"
+Pass,Simple pass,71,28,77,12,1801
+Duel,Air duel,67,57,57,31,"701, 1802"
+Duel,Air duel,88,50,90,40,"703, 1801"
+Pass,Simple pass,47,90,53,83,1801
+Duel,Ground defending duel,10,88,8,87,"501, 701, 1802"
+Pass,Simple pass,8,83,53,88,1802
+Pass,Simple pass,73,47,76,42,1801
+Others on the ball,Touch,78,37,64,46,
+Pass,Simple pass,64,46,66,48,1801
+Pass,Head pass,76,11,69,34,1802
+Duel,Ground loose ball duel,69,37,73,40,"701, 1802"
+Duel,Ground defending duel,58,9,60,10,"701, 1802"
+Foul,Foul,60,10,58,9,
+Duel,Ground loose ball duel,49,34,39,14,"1601, 701, 1802"
+Pass,Simple pass,45,53,38,29,1801
+Pass,Simple pass,42,26,26,18,1801
+Duel,Ground attacking duel,59,63,71,76,"602, 701, 1802"
+Pass,Simple pass,55,28,36,15,1801
+Others on the ball,Touch,71,43,73,43,
+Duel,Ground loose ball duel,71,41,66,44,"701, 1802"
+Pass,Simple pass,62,93,50,91,1801
+Pass,Simple pass,57,72,68,97,1801
+Pass,Simple pass,40,59,34,52,1801
+Pass,Smart pass,53,71,100,95,1802
+Pass,Simple pass,40,34,60,49,1801
+Duel,Ground loose ball duel,61,46,55,44,"703, 1801"
+Duel,Ground loose ball duel,87,53,73,79,"703, 1801"
+Pass,Simple pass,76,96,81,82,1802
+Pass,Simple pass,79,92,72,97,1801
+Pass,Simple pass,75,95,76,73,1801
+Pass,High pass,30,89,76,66,1801
+Pass,Cross,84,95,87,44,"302, 402, 801, 1801"
+Duel,Ground defending duel,5,86,5,93,"502, 703, 1801"
+Duel,Ground attacking duel,5,93,19,95,"504, 701, 1802"
+Others on the ball,Clearance,7,34,22,53,"1401, 1802"
+Pass,Simple pass,55,92,44,91,1801
+Duel,Ground defending duel,66,87,66,96,"501, 701, 1802"
+Pass,Simple pass,65,66,67,53,1801
+Pass,Simple pass,63,52,87,25,1801
+Pass,Simple pass,53,89,59,96,1801
+Duel,Air duel,53,87,33,95,"701, 1802"
+Free Kick,Penalty,89,50,92,43,"101, 402, 1205, 1801"
+Pass,Simple pass,58,51,56,43,1801
+Pass,Simple pass,54,45,46,52,1801
+Pass,Smart pass,74,34,96,16,1802
+Pass,Simple pass,69,60,56,75,1801
+Duel,Air duel,6,66,31,71,"703, 1801"
+Pass,Simple pass,65,75,69,72,1801
+Duel,Ground defending duel,67,73,67,72,"502, 1601, 701, 1802"
+Shot,Shot,79,58,0,0,"101, 402, 201, 1204, 1801"
+Pass,High pass,71,61,92,34,"1901, 1802"
+Others on the ball,Touch,69,69,75,69,
+Others on the ball,Touch,81,95,83,100,1401
+Pass,Simple pass,75,89,82,72,1801
+Pass,Cross,96,88,91,29,"402, 801, 1801"
+Pass,Simple pass,72,86,58,79,1801
+Pass,Simple pass,77,91,76,84,1801
+Pass,Cross,74,90,89,57,"302, 401, 801, 1801"
+Duel,Ground attacking duel,70,76,69,79,"602, 701, 1802"
+Duel,Ground loose ball duel,71,73,77,79,"703, 1801"
+Pass,Simple pass,77,79,68,55,1802
+Pass,Simple pass,56,54,58,63,1802
+Free Kick,Throw in,65,100,43,81,1801
+Pass,Simple pass,24,81,25,95,1801
+Duel,Ground loose ball duel,34,56,36,40,"1601, 701, 1802"
+Duel,Ground attacking duel,75,86,70,83,"701, 1802"
+Duel,Ground attacking duel,73,81,70,95,"701, 1802"
+Pass,Simple pass,48,27,43,31,1802
+Duel,Ground loose ball duel,61,93,65,94,"702, 1801"
+Duel,Ground loose ball duel,65,94,59,99,"701, 1802"
+Pass,Simple pass,51,56,43,53,1801
+Pass,Simple pass,49,50,28,41,1801
+Pass,Simple pass,80,73,73,87,1801
+Pass,Simple pass,70,54,76,70,1802
+Duel,Ground attacking duel,46,49,46,46,"702, 1801"
+Pass,Simple pass,46,46,69,50,1801
+Pass,Simple pass,42,66,61,75,1801
+Pass,Simple pass,48,49,46,20,1802
+Pass,Simple pass,27,31,22,62,1801
+Pass,Head pass,84,84,85,68,1802
+Pass,Simple pass,64,26,82,0,1802
+Pass,Simple pass,69,32,68,5,1801
+Pass,Simple pass,69,51,72,89,1801
+Pass,Simple pass,67,61,56,43,1801
+Others on the ball,Touch,74,31,71,37,1302
+Pass,Simple pass,61,63,71,15,1801
+Duel,Ground attacking duel,45,87,39,84,"702, 1801"
+Pass,Simple pass,39,84,40,94,1802
+Duel,Air duel,68,58,70,54,"701, 1802"
+Pass,Simple pass,66,49,61,59,1801
+Duel,Ground attacking duel,69,44,56,36,"702, 1801"
+Pass,Simple pass,67,22,64,13,1801
+Others on the ball,Touch,44,57,46,55,
+Duel,Ground loose ball duel,46,55,51,53,"701, 1802"
+Pass,Simple pass,42,31,51,7,1801
+Pass,Simple pass,72,13,68,30,1801
+Pass,Simple pass,71,27,62,94,1801
+Pass,High pass,57,18,79,96,1802
+Pass,Simple pass,69,38,65,52,1801
+Others on the ball,Touch,30,23,32,38,
+Pass,Simple pass,32,38,40,19,1801
+Duel,Ground defending duel,68,79,68,75,"701, 1802"
+Foul,Foul,68,75,68,79,
+Pass,Smart pass,66,68,92,66,"901, 1801"
+Pass,Simple pass,59,36,58,7,1801
+Pass,Simple pass,69,41,69,33,1801
+Pass,Simple pass,67,30,70,52,1801
+Free Kick,Free kick cross,67,42,94,67,"801, 1802"
+Duel,Ground loose ball duel,70,77,67,84,"703, 1801"
+Pass,Cross,67,84,31,52,"402, 1802"
+Pass,Simple pass,51,55,42,40,1801
+Duel,Air duel,44,83,59,83,"703, 1801"
+Pass,Simple pass,65,28,38,42,1801
+Pass,Simple pass,64,27,64,8,1801
+Duel,Ground attacking duel,75,54,63,47,"602, 701, 1802"
+Duel,Ground attacking duel,61,97,56,100,"504, 702, 1801"
+Pass,Simple pass,63,73,66,96,1801
+Pass,Simple pass,62,74,64,65,1801
+Duel,Ground loose ball duel,39,65,32,55,"701, 1802"
+Pass,Simple pass,68,71,71,47,1801
+Free Kick,Free kick cross,70,84,92,43,"801, 1801"
+Pass,Simple pass,66,34,33,43,1801
+Others on the ball,Touch,42,39,60,69,
+Pass,Simple pass,60,69,67,75,1801
+Pass,High pass,59,76,94,48,"901, 1802"
+Pass,Simple pass,67,75,63,19,1801
+Pass,Simple pass,75,29,73,46,1802
+Pass,Simple pass,69,32,58,23,1801
+Duel,Ground loose ball duel,89,34,100,100,"702, 1801"
+Duel,Ground attacking duel,78,94,69,95,"503, 701, 1802"
+Duel,Ground attacking duel,73,53,65,59,"702, 1801"
+Pass,Cross,68,22,77,33,"402, 801, 1801"
+Pass,Simple pass,66,13,66,14,1802
+Pass,Simple pass,55,28,56,67,1801
+Duel,Ground defending duel,27,86,24,82,"504, 703, 1801"
+Pass,Simple pass,65,77,62,93,1801
+Others on the ball,Touch,66,79,68,88,
+Duel,Ground loose ball duel,68,88,66,90,"701, 1802"
+Duel,Ground defending duel,66,90,64,88,"701, 1802"
+Pass,Simple pass,71,39,73,36,1801
+Pass,Simple pass,66,35,57,32,1801
+Duel,Ground loose ball duel,52,47,32,89,"701, 1802"
+Duel,Ground defending duel,67,60,67,60,"701, 1802"
+Foul,Foul,67,60,67,60,
+Duel,Ground defending duel,63,58,64,55,"702, 1801"
+Others on the ball,Touch,55,69,74,68,
+Pass,High pass,74,68,88,28,"901, 1801"
+Pass,Simple pass,63,36,41,38,1801
+Pass,High pass,57,17,78,87,1801
+Duel,Ground defending duel,66,73,67,81,"702, 1801"
+Duel,Ground loose ball duel,68,15,81,7,"701, 1802"
+Duel,Ground attacking duel,79,9,73,0,"602, 702, 1801"
+Pass,Simple pass,80,9,78,3,1801
+Pass,Simple pass,71,29,73,49,1801
+Pass,Simple pass,59,22,40,28,"2001, 1802"
+Pass,Simple pass,66,26,61,65,1801
+Pass,Simple pass,73,42,66,63,1801
+Pass,Simple pass,36,23,37,5,1801
+Pass,Simple pass,66,22,71,36,1801
+Pass,High pass,71,32,72,81,1801
+Duel,Air duel,89,37,89,42,"703, 1801"
+Shot,Shot,89,42,100,100,"403, 1211, 1802"
+Duel,Ground defending duel,67,3,59,4,"504, 1601, 701, 1802"
+Duel,Ground loose ball duel,53,28,44,27,"702, 1801"
+Duel,Ground loose ball duel,44,27,39,25,"703, 1801"
+Pass,Simple pass,70,36,61,56,1801
+Pass,Simple pass,72,36,65,29,1801
+Duel,Air duel,88,37,89,39,"702, 1801"
+Duel,Air duel,89,39,89,22,"701, 1802"
+Pass,Simple pass,43,65,37,81,1801
+Pass,Simple pass,66,77,71,6,1801
+Pass,Head pass,67,33,35,43,1801
+Pass,Simple pass,58,37,61,18,1801
+Pass,Simple pass,64,28,55,32,1801
+Duel,Ground defending duel,57,5,42,4,"503, 701, 1802"
+Duel,Air duel,97,52,89,50,"701, 1802"
+Offside,,83,25,0,0,
+Others on the ball,Touch,29,15,28,13,
+Duel,Ground loose ball duel,65,66,64,67,"703, 1801"
+Pass,Simple pass,64,67,76,75,1801
+Pass,Smart pass,89,76,90,37,"302, 1801"
+Pass,Simple pass,72,53,63,69,1801
+Pass,Simple pass,71,38,92,94,1801
+Duel,Ground loose ball duel,33,19,32,22,"1601, 703, 1801"
+Pass,Simple pass,32,22,35,32,1801
+Pass,Simple pass,44,10,73,36,1801
+Duel,Ground attacking duel,61,30,67,28,"701, 1802"
+Duel,Ground defending duel,12,10,10,18,"504, 1601, 701, 1802"
+Pass,Simple pass,12,14,11,18,1801
+Pass,High pass,41,15,66,28,1802
+Duel,Ground attacking duel,60,53,72,50,"701, 1802"
+Pass,Simple pass,66,17,76,7,1801
+Pass,Simple pass,73,33,70,60,1801
+Pass,Simple pass,65,40,56,70,1801
+Pass,Simple pass,55,34,76,9,1801
+Duel,Air duel,95,54,93,53,"703, 1801"
+Pass,Simple pass,28,13,30,59,1802
+Duel,Ground loose ball duel,18,7,18,5,"703, 1801"
+Pass,Head pass,18,5,18,9,1802
+Duel,Ground defending duel,15,6,20,14,"504, 701, 1802"
+Duel,Ground loose ball duel,83,58,88,42,"701, 1802"
+Pass,Simple pass,66,67,62,62,1801
+Pass,Simple pass,15,34,27,29,"1401, 1801"
+Free Kick,Free kick cross,55,16,0,0,"801, 1802"
+Duel,Air duel,70,11,83,15,"703, 1801"
+Duel,Air duel,71,8,82,20,"703, 1801"
+Pass,High pass,4,4,38,22,1802
+Pass,Head pass,58,21,67,26,1802
+Pass,Cross,97,29,97,48,"401, 801, 1801"
+Pass,Simple pass,69,16,57,58,1801
+Pass,Simple pass,56,34,52,36,1801
+Pass,Simple pass,50,3,33,20,"1401, 1801"
+Others on the ball,Clearance,4,55,31,49,"1401, 1802"
+Duel,Ground defending duel,16,7,4,16,"502, 1601, 701, 1802"
+Duel,Air duel,77,7,82,0,"701, 1802"
+Pass,Simple pass,78,7,79,3,1801
+Pass,Simple pass,85,11,73,22,1802
+Pass,Simple pass,51,50,29,69,1801
+Pass,High pass,72,13,89,70,1802
+Pass,Simple pass,62,79,54,95,1801
+Pass,Simple pass,52,55,44,25,1801
+Duel,Ground attacking duel,59,89,66,93,"703, 1801"
+Duel,Air duel,38,18,24,0,"702, 1801"
+Pass,Simple pass,36,20,28,9,1801
+Pass,High pass,34,21,94,9,1801
+Others on the ball,Touch,68,23,69,10,
+Duel,Ground loose ball duel,69,10,75,6,"701, 1802"
+Pass,Simple pass,35,41,29,52,1801
+Pass,Simple pass,27,23,54,27,1801
+Pass,High pass,40,25,73,93,1802
+Pass,Simple pass,26,67,22,79,1801
+Pass,Smart pass,45,31,70,56,1802
+Free Kick,Free Kick,34,30,31,78,1801
+Pass,Simple pass,44,55,44,29,1801
+Duel,Ground defending duel,68,55,70,38,"703, 1801"
+Pass,Simple pass,65,27,69,10,1801
+Pass,Simple pass,67,23,73,32,1801
+Pass,Simple pass,62,21,59,67,1801
+Others on the ball,Touch,36,33,56,53,
+Pass,Simple pass,56,53,67,45,1801
+Free Kick,Penalty,89,50,87,54,"402, 1205, 1802"
+Shot,Shot,92,53,0,0,"101, 403, 201, 1203, 1801"
+Pass,Simple pass,6,34,23,36,1801
+Pass,Simple pass,6,58,5,91,"1401, 1801"
+Pass,Simple pass,44,61,73,23,1801
+Pass,Simple pass,36,23,12,14,1801
+Duel,Ground loose ball duel,15,37,13,29,"701, 1802"
+Pass,Simple pass,55,61,40,73,1801
+Pass,High pass,59,31,68,12,"901, 1802"
+Pass,Simple pass,37,28,32,67,1801
+Shot,Shot,89,33,0,0,"101, 402, 201, 1205, 1801"
+Pass,Simple pass,46,64,31,38,1801
+Pass,Simple pass,29,27,31,24,1801
+Duel,Air duel,43,51,32,52,"701, 1802"
+Pass,Simple pass,51,47,67,42,1801
+Pass,Simple pass,42,29,37,56,1801
+Pass,Simple pass,47,40,70,41,1801
+Pass,High pass,57,36,80,93,1802
+Pass,Simple pass,61,17,62,20,"1401, 1802"
+Pass,Simple pass,59,16,36,74,1801
+Duel,Ground loose ball duel,68,39,70,34,"703, 1801"
+Pass,Simple pass,70,34,74,20,1801
+Pass,Simple pass,60,30,47,83,1801
+Others on the ball,Acceleration,57,28,68,23,1801
+Pass,Simple pass,68,23,76,26,1801
+Duel,Ground attacking duel,77,32,75,28,"702, 1801"
+Pass,Simple pass,75,28,80,16,1802
+Pass,Simple pass,67,33,65,77,1801
+Pass,High pass,53,54,85,35,1801
+Duel,Air duel,36,35,30,34,"702, 1801"
+Pass,Simple pass,37,46,21,37,1801
+Pass,Simple pass,45,24,60,22,1801
+Pass,Simple pass,56,31,54,62,1801
+Duel,Ground loose ball duel,34,58,32,52,"703, 1801"
+Pass,Simple pass,24,80,32,88,"1401, 1801"
+Others on the ball,Clearance,10,52,29,65,"1401, 1801"
+Duel,Air duel,30,64,14,35,"701, 1802"
+Others on the ball,Clearance,10,35,38,36,1802
+Duel,Ground defending duel,16,9,4,14,"703, 1801"
+Pass,Simple pass,4,14,29,30,1802
+Duel,Ground defending duel,28,69,26,51,"502, 701, 1802"
+Others on the ball,Touch,31,19,30,15,1401
+Pass,High pass,32,14,78,5,1802
+Duel,Ground defending duel,36,18,33,16,"504, 702, 1801"
+Duel,Ground loose ball duel,33,16,35,8,"701, 1802"
+Pass,Launch,11,59,55,53,"1401, 1801"
+Pass,Simple pass,27,59,7,26,1801
+Shot,Shot,44,40,0,0,"101, 402, 201, 1203, 1801"
+Duel,Ground defending duel,34,23,34,28,"504, 701, 1802"
+Foul,Foul,34,28,34,23,
+Pass,Simple pass,33,60,36,69,1801
+Pass,Simple pass,34,42,37,24,1801
+Pass,Simple pass,32,23,29,23,1801
+Pass,Simple pass,39,27,33,27,1801
+Pass,Simple pass,71,28,73,25,1801
+Pass,Simple pass,64,23,44,52,1801
+Pass,High pass,46,35,56,35,1802
+Duel,Ground defending duel,57,10,44,10,"504, 701, 1802"
+Duel,Ground loose ball duel,39,23,46,41,"701, 1802"
+Pass,Launch,49,16,88,20,"1001, 1802"
+Pass,Simple pass,35,29,28,45,1801
+Pass,Simple pass,40,35,39,27,1801
+Pass,Simple pass,36,29,35,29,1802
+Pass,Simple pass,30,22,30,15,1802
+Duel,Ground defending duel,30,15,31,18,"702, 1801"
+Pass,Simple pass,26,20,46,0,1802
+Pass,High pass,37,9,52,25,1801
+Pass,Simple pass,53,29,31,76,1801
+Others on the ball,Touch,59,19,58,11,
+Duel,Ground defending duel,58,11,52,7,"701, 1802"
+Pass,Simple pass,27,22,26,5,1801
+Pass,Simple pass,24,7,38,7,1801
+Pass,Simple pass,60,25,87,15,1801
+Pass,Simple pass,33,80,23,94,1801
+Pass,Simple pass,44,18,40,6,1801
+Others on the ball,Touch,24,94,31,93,
+Duel,Ground defending duel,31,93,25,97,"701, 1802"
+Pass,Simple pass,23,83,24,95,1801
+Pass,Simple pass,70,21,99,17,"1001, 1802"
+Shot,Shot,77,67,0,0,"402, 2101, 1802"
+Duel,Air duel,89,74,87,72,"701, 1802"
+Foul,Foul,87,72,89,74,
+Pass,Simple pass,26,76,31,88,1801
+Pass,Simple pass,30,39,36,6,1801
+Pass,Simple pass,41,37,44,90,1801
+Pass,Simple pass,71,7,83,6,1801
+Pass,Smart pass,74,75,80,85,"901, 1802"
+Duel,Ground attacking duel,72,89,67,90,"703, 1801"
+Free Kick,Free kick cross,71,92,90,46,1802
+Pass,Smart pass,47,54,76,74,1801
+Pass,Simple pass,71,81,56,89,1801
+Pass,Simple pass,59,71,75,57,1801
+Pass,Simple pass,26,39,4,44,1801
+Duel,Ground defending duel,26,35,36,36,"504, 701, 1802"
+Duel,Ground defending duel,25,13,14,11,"502, 701, 1802"
+Pass,Simple pass,34,45,48,55,1801
+Duel,Ground defending duel,34,27,35,31,"702, 1801"
+Pass,Simple pass,45,31,24,33,1801
+Others on the ball,Touch,27,51,36,40,
+Pass,Simple pass,36,40,39,9,1801
+Pass,Simple pass,29,27,44,34,1801
+Duel,Ground attacking duel,44,25,41,24,"701, 1802"
+Pass,Simple pass,29,15,14,3,1801
+Pass,Simple pass,45,10,52,24,1801
+Pass,Simple pass,51,17,65,45,1801
+Pass,Simple pass,71,39,73,92,1801
+Duel,Ground defending duel,33,42,33,48,"702, 1801"
+Pass,Simple pass,41,83,45,97,1801
+Pass,Simple pass,46,72,28,36,1801
+Pass,Simple pass,53,41,72,28,1802
+Free Kick,Throw in,71,0,58,9,1801
+Pass,High pass,41,31,68,86,1802
+Pass,High pass,68,38,89,55,"901, 1801"
+Pass,Simple pass,30,31,28,47,1801
+Duel,Ground attacking duel,92,56,49,96,"701, 1802"
+Pass,Simple pass,74,6,70,22,1801
+Duel,Ground attacking duel,70,5,70,9,"502, 701, 1802"
+Duel,Ground defending duel,70,9,79,23,"504, 703, 1801"
+Pass,Simple pass,79,23,78,14,1802
+Others on the ball,Touch,24,6,22,0,1401
+Duel,Ground attacking duel,59,10,67,29,"703, 1801"
+Pass,Simple pass,67,29,79,35,1801
+Pass,Simple pass,64,15,40,14,1801
+Pass,Simple pass,34,39,29,66,1801
+Pass,Simple pass,60,26,65,5,1801
+Pass,Simple pass,66,36,70,49,1801
+Pass,Simple pass,69,50,79,75,1801
+Duel,Ground attacking duel,30,11,27,13,"1901, 702, 1801"
+Pass,Simple pass,27,13,44,20,"1901, 1801"
+Pass,Simple pass,32,6,63,0,"1401, 1802"
+Duel,Ground loose ball duel,86,49,88,54,"702, 1801"
+Pass,Simple pass,47,50,44,64,1801
+Pass,Smart pass,52,72,88,40,"301, 1901, 901, 1801"
+Pass,Simple pass,70,61,57,33,1801
+Duel,Ground attacking duel,71,47,52,85,"501, 703, 1801"
+Duel,Ground loose ball duel,31,32,31,33,"703, 1801"
+Duel,Ground loose ball duel,74,91,76,86,"701, 1802"
+Others on the ball,Touch,17,83,13,84,1401
+Pass,High pass,26,90,65,67,1802
+Pass,High pass,31,82,80,100,1802
+Duel,Ground defending duel,5,73,7,71,"702, 1801"
+Pass,Head pass,55,82,45,51,1802
+Pass,Launch,15,89,42,100,1802
+Duel,Air duel,65,86,67,45,"703, 1801"
+Pass,Simple pass,30,82,23,79,1801
+Duel,Ground defending duel,15,84,9,92,"501, 701, 1802"
+Pass,Simple pass,60,77,60,74,1801
+Others on the ball,Touch,9,74,29,85,1401
+Duel,Ground attacking duel,82,79,96,87,"501, 602, 701, 1802"
+Duel,Ground defending duel,96,87,86,91,"501, 701, 1802"
+Duel,Ground loose ball duel,5,71,7,75,"703, 1801"
+Duel,Ground defending duel,17,93,21,85,"503, 701, 1802"
+Pass,Simple pass,70,82,82,62,1801
+Free Kick,Free Kick,35,88,50,67,1802
+Others on the ball,Touch,79,92,65,77,1401
+Pass,Simple pass,38,73,35,92,1801
+Pass,Simple pass,65,82,39,73,1801
+Pass,Simple pass,53,75,82,26,"1901, 1801"
+Others on the ball,Touch,11,30,2,38,1401
+Duel,Ground attacking duel,87,80,82,88,"504, 701, 1802"
+Duel,Ground defending duel,18,4,13,9,"502, 703, 1801"
+Pass,High pass,13,9,39,12,1801
+Pass,Simple pass,26,10,38,16,1802
+Free Kick,Throw in,29,0,29,49,1801
+Pass,Simple pass,65,20,64,11,1801
+Pass,Simple pass,78,90,72,83,1801
+Others on the ball,Touch,42,87,54,83,
+Pass,High pass,54,83,88,34,1801
+Free Kick,Penalty,89,51,90,30,"101, 402, 1207, 1801"
+Pass,High pass,33,59,65,70,1802
+Duel,Ground defending duel,41,76,38,84,"701, 1802"
+Pass,Simple pass,41,63,66,92,1801
+Pass,Head pass,21,33,15,20,1802
+Pass,Simple pass,35,72,34,44,1802
+Pass,Simple pass,44,14,29,9,1801
+Pass,Simple pass,64,81,72,88,1801
+Pass,Simple pass,62,25,49,15,1801
+Pass,High pass,49,18,32,64,1801
+Pass,Simple pass,40,74,30,56,1801
+Others on the ball,Touch,66,74,79,82,
+Pass,Simple pass,69,59,62,43,1801
+Pass,Simple pass,41,12,34,5,1801
+Pass,Simple pass,20,32,20,50,1801
+Duel,Ground loose ball duel,26,27,35,37,"701, 1802"
+Pass,Simple pass,51,27,48,40,1801
+Pass,Simple pass,52,40,45,92,1801
+Pass,Simple pass,60,33,60,93,1801
+Pass,Simple pass,57,29,74,37,1801
+Pass,Simple pass,85,26,78,47,1802
+Others on the ball,Touch,48,20,66,31,
+Pass,Simple pass,66,31,74,10,1801
+Pass,Simple pass,72,24,82,8,1801
+Pass,High pass,24,35,70,85,1801
+Pass,Simple pass,37,29,27,14,1801
+Pass,Simple pass,78,63,89,85,1801
+Shot,Shot,98,48,100,100,"101, 402, 201, 1205, 1801"
+Duel,Ground attacking duel,26,74,29,75,"703, 1801"
+Free Kick,Free Kick,30,65,51,5,1801
+Pass,High pass,57,25,75,88,1801
+Pass,Simple pass,78,31,76,45,1801
+Duel,Ground attacking duel,83,37,78,43,"701, 1802"
+Duel,Ground defending duel,78,43,79,43,"701, 1802"
+Foul,Foul,79,43,78,43,
+Pass,Simple pass,46,25,39,13,1801
+Others on the ball,Clearance,11,66,36,75,"1401, 1801"
+Duel,Ground defending duel,36,81,32,76,"501, 703, 1801"
+Offside,,76,85,100,100,
+Pass,Simple pass,60,27,66,5,1801
+Others on the ball,Touch,70,40,61,18,1401
+Pass,Simple pass,64,79,52,88,1801
+Pass,Simple pass,51,50,34,73,1801
+Pass,Simple pass,79,27,64,23,1801
+Others on the ball,Touch,8,67,12,57,1401
+Pass,Simple pass,63,8,60,26,1801
+Pass,Simple pass,46,82,64,63,1801
+Duel,Ground attacking duel,42,77,35,76,"702, 1801"
+Duel,Ground attacking duel,35,76,58,74,"703, 1801"
+Pass,Simple pass,43,4,53,15,1801
+Pass,Simple pass,68,20,89,29,1801
+Duel,Ground defending duel,69,7,65,10,"701, 1802"
+Duel,Ground attacking duel,69,59,73,56,"703, 1801"
+Shot,Shot,73,56,100,100,"402, 201, 1215, 1802"
+Pass,Simple pass,71,80,59,94,1801
+Pass,Simple pass,70,94,68,89,1802
+Duel,Ground defending duel,68,89,67,88,"502, 701, 1802"
+Foul,Foul,67,88,68,89,
+Pass,Simple pass,63,3,72,37,1801
+Duel,Ground loose ball duel,17,21,19,26,"701, 1802"
+Pass,Simple pass,57,73,49,58,1801
+Pass,Simple pass,50,85,37,95,1801
+Pass,Simple pass,78,94,68,84,1801
+Others on the ball,Touch,77,68,73,59,
+Duel,Ground loose ball duel,40,25,38,21,"701, 1802"
+Duel,Ground defending duel,38,21,39,24,"701, 1802"
+Foul,Foul,39,24,38,21,
+Pass,Simple pass,62,81,57,99,1801
+Pass,Simple pass,49,44,54,49,1802
+Pass,Simple pass,46,74,44,88,1801
+Duel,Ground loose ball duel,67,60,65,61,"703, 1801"
+Duel,Ground attacking duel,65,61,60,61,"701, 1802"
+Pass,Simple pass,29,45,31,44,1801
+Pass,Simple pass,37,67,47,98,1801
+Pass,Simple pass,63,41,53,38,1801
+Pass,Simple pass,55,53,36,63,1801
+Pass,Simple pass,58,21,34,15,1801
+Pass,Cross,76,87,86,30,"402, 801, 1802"
+Pass,High pass,61,27,93,11,1801
+Pass,Simple pass,68,76,68,95,1801
+Pass,Simple pass,67,77,55,58,1801
+Shot,Shot,92,39,0,0,"402, 201, 1214, 1802"
+Pass,Simple pass,71,38,64,18,1802
+Duel,Ground defending duel,64,18,59,14,"701, 1802"
+Duel,Ground attacking duel,63,36,67,47,"501, 701, 1802"
+Duel,Air duel,91,48,77,38,"701, 1802"
+Duel,Ground attacking duel,64,45,53,51,"701, 1802"
+Duel,Ground loose ball duel,28,19,33,33,"1901, 703, 1801"
+Pass,Simple pass,72,12,77,11,"1901, 1802"
+Pass,Simple pass,68,31,63,10,1801
+Pass,Simple pass,59,24,54,47,1801
+Others on the ball,Touch,74,17,94,9,1401
+Pass,Cross,76,15,89,60,"402, 801, 1801"
+Pass,Simple pass,88,12,74,12,1802
+Duel,Ground defending duel,87,13,89,15,"701, 1802"
+Foul,Foul,89,15,87,13,
+Pass,Simple pass,64,31,45,12,1801
+Others on the ball,Touch,74,80,76,76,
+Pass,Simple pass,70,70,60,71,1801
+Duel,Ground attacking duel,89,28,88,28,"501, 701, 1802"
+Duel,Ground attacking duel,93,85,91,86,"702, 1801"
+Pass,Simple pass,91,86,90,69,1801
+Free Kick,Penalty,90,51,89,71,"402, 1202, 1802"
+Pass,Simple pass,49,49,34,66,1801
+Pass,Simple pass,35,31,32,8,1802
+Pass,Simple pass,79,89,74,79,1802
+Others on the ball,Touch,32,2,36,0,1401
+Pass,Head pass,70,36,70,52,1801
+Pass,Smart pass,70,27,70,35,"901, 1802"
+Pass,Simple pass,53,47,60,65,1801
+Duel,Ground attacking duel,81,13,100,0,"702, 1801"
+Pass,Simple pass,31,19,33,36,1801
+Pass,Simple pass,64,38,72,25,1801
+Pass,High pass,37,46,82,50,"901, 1802"
+Pass,Simple pass,51,28,57,34,1801
+Pass,Simple pass,55,30,38,34,1801
+Pass,Simple pass,55,52,43,23,1801
+Duel,Ground attacking duel,72,20,64,28,"702, 1801"
+Pass,Simple pass,64,28,67,34,1801
+Pass,Simple pass,55,22,68,35,1801
+Free Kick,Penalty,89,49,86,66,"101, 402, 1204, 1801"
+Duel,Ground attacking duel,79,16,73,17,"504, 701, 1802"
+Free Kick,Free Kick,43,66,77,15,1802
+Pass,Simple pass,31,16,17,12,1801
+Pass,Simple pass,30,46,39,85,1801
+Pass,Simple pass,33,30,34,9,1801
+Pass,Simple pass,36,19,29,68,1801
+Pass,High pass,55,11,79,10,1802
+Pass,High pass,35,7,48,7,1802
+Pass,Simple pass,36,37,32,64,1801
+Duel,Ground defending duel,31,13,31,12,"702, 1801"
+Others on the ball,Clearance,21,34,65,0,1802
+Pass,Simple pass,49,51,31,58,1801
+Offside,,93,43,100,100,
+Pass,High pass,32,70,59,64,1802
+Pass,Simple pass,54,27,62,36,"1901, 1801"
+Pass,Simple pass,56,31,71,26,"1901, 1801"
+Pass,High pass,70,50,87,67,"1901, 1802"
+Duel,Ground attacking duel,79,65,79,58,"502, 703, 1801"
+Shot,Shot,79,58,100,100,"401, 201, 1210, 1802"
+Pass,Simple pass,79,8,82,10,1802
+Pass,Simple pass,28,66,26,51,1801
+Pass,Simple pass,65,92,80,95,1802
+Duel,Ground loose ball duel,29,94,31,87,"701, 1802"
+Pass,Simple pass,45,50,53,38,1802
+Duel,Ground defending duel,56,32,62,46,"501, 1601, 701, 1802"
+Duel,Air duel,6,58,37,73,"703, 1801"
+Duel,Air duel,21,56,9,63,"701, 1802"
+Duel,Ground defending duel,27,70,29,70,"701, 1802"
+Foul,Foul,29,70,27,70,
+Pass,Simple pass,29,36,35,68,1801
+Others on the ball,Touch,11,58,13,53,1401
+Pass,Simple pass,35,54,39,31,1801
+Pass,Simple pass,45,33,67,28,1801
+Pass,Head pass,42,39,28,33,1801
+Duel,Air duel,38,31,29,33,"701, 1802"
+Duel,Ground defending duel,75,26,68,34,"502, 703, 1801"
+Pass,Simple pass,68,34,42,49,1801
+Duel,Ground loose ball duel,23,66,18,68,"1601, 702, 1801"
+Others on the ball,Touch,46,44,35,34,1401
+Pass,Simple pass,56,79,33,63,1801
+Others on the ball,Touch,48,45,45,45,
+Duel,Ground loose ball duel,45,45,44,49,"1601, 702, 1801"
+Free Kick,Free Kick,38,48,77,11,1801
+Duel,Ground defending duel,19,61,22,46,"1901, 502, 703, 1801"
+Duel,Ground defending duel,14,30,15,34,"501, 701, 1802"
+Others on the ball,Touch,61,66,61,65,1401
+Pass,Simple pass,65,4,53,19,1801
+Pass,Simple pass,65,75,46,27,1801
+Pass,High pass,47,53,73,96,1801
+Duel,Ground attacking duel,41,38,35,41,"702, 1801"
+Pass,Simple pass,35,41,29,35,1801
+Pass,Simple pass,55,57,45,33,1801
+Pass,Head pass,65,47,71,23,1802
+Duel,Ground defending duel,2,11,100,100,"502, 701, 1802"
+Duel,Ground attacking duel,50,26,37,22,"701, 1802"
+Duel,Ground defending duel,43,41,23,42,"703, 1801"
+Pass,Simple pass,30,38,32,24,1801
+Pass,Simple pass,45,27,59,21,1801
+Pass,High pass,47,23,69,99,1801
+Shot,Shot,75,55,0,0,"402, 2101, 1802"
+Free Kick,Corner,100,3,94,60,"302, 801, 1801"
+Pass,High pass,46,58,56,29,1802
+Others on the ball,Touch,63,86,66,77,
+Duel,Ground loose ball duel,66,77,68,72,"701, 1802"
+Free Kick,Free kick cross,67,90,95,8,"801, 1802"
+Free Kick,Throw in,34,0,27,19,1801
+Free Kick,Corner,100,100,91,66,"801, 1802"
+Pass,Simple pass,72,36,61,47,1801
+Pass,Simple pass,64,38,53,52,1801
+Pass,Simple pass,60,28,75,7,1801
+Pass,Simple pass,68,36,79,60,1801
+Duel,Ground attacking duel,63,65,66,70,"504, 703, 1801"
+Pass,Simple pass,66,70,73,57,1801
+Pass,Simple pass,70,45,74,98,1801
+Pass,High pass,63,65,88,26,1802
+Duel,Ground attacking duel,60,79,60,89,"702, 1801"
+Duel,Ground loose ball duel,60,89,63,100,"1601, 702, 1801"
+Pass,Simple pass,49,48,74,100,1802
+Free Kick,Corner,100,3,93,53,"801, 1802"
+Pass,Simple pass,58,38,52,36,1801
+Pass,Simple pass,58,41,46,46,1801
+Pass,High pass,74,64,95,43,"901, 1802"
+Duel,Ground attacking duel,38,32,50,21,"503, 701, 1802"
+Free Kick,Free Kick,45,46,47,15,1801
+Others on the ball,Touch,46,36,68,48,
+Pass,Simple pass,68,48,84,47,1801
+Free Kick,Corner,100,0,94,42,"801, 1801"
+Pass,Simple pass,53,33,45,34,1801
+Pass,Simple pass,34,47,31,20,1801
+Duel,Ground attacking duel,28,34,28,53,"703, 1801"
+Pass,Simple pass,28,53,36,31,1801
+Pass,Simple pass,25,53,22,32,1801
+Pass,Simple pass,72,90,67,79,1802
+Pass,High pass,73,78,73,16,1801
+Pass,Simple pass,60,39,77,28,1801
+Others on the ball,Touch,23,39,27,36,
+Duel,Ground defending duel,23,44,23,51,"702, 1801"
+Pass,Simple pass,60,62,73,45,1801
+Pass,Simple pass,62,16,75,5,1801
+Pass,High pass,67,23,88,81,1801
+Pass,Simple pass,63,33,58,60,1801
+Pass,Cross,70,26,90,72,"402, 801, 1801"
+Others on the ball,Touch,18,45,0,50,1401
+Free Kick,Throw in,37,0,37,23,1801
+Others on the ball,Touch,44,10,76,27,
+Pass,Simple pass,76,27,77,48,1801
+Pass,Simple pass,69,37,64,57,1801
+Duel,Ground defending duel,31,72,32,73,"1601, 701, 1802"
+Foul,Foul,32,73,31,72,1702
+Duel,Ground defending duel,36,75,24,39,"504, 701, 1802"
+Pass,Simple pass,31,28,61,7,1801
+Pass,Simple pass,36,33,60,20,1801
+Free Kick,Free kick cross,79,5,88,40,1801
+Pass,Simple pass,32,22,33,3,1801
+Pass,Simple pass,61,55,58,67,1801
+Pass,Simple pass,76,60,74,28,1802
+Pass,Simple pass,52,40,54,7,1801
+Pass,High pass,56,33,84,91,1801
+Pass,Simple pass,40,26,34,43,1801
+Pass,Simple pass,69,44,66,23,1802
+Pass,Simple pass,56,19,45,33,1801
+Duel,Ground defending duel,29,27,26,23,"502, 701, 1802"
+Others on the ball,Touch,24,24,14,0,1401
+Pass,Simple pass,67,45,55,52,1801
+Pass,High pass,55,44,65,97,1801
+Shot,Shot,83,47,100,100,"401, 201, 1210, 1802"
+Pass,Simple pass,25,69,25,79,1801
+Duel,Ground attacking duel,46,40,43,36,"703, 1801"
+Duel,Ground loose ball duel,79,39,76,35,"701, 1802"
+Pass,Simple pass,60,33,69,16,1801
+Pass,Simple pass,82,44,74,59,"1401, 1801"
+Offside,,97,51,100,100,
+Pass,Simple pass,66,12,60,10,1802
+Duel,Ground loose ball duel,67,24,69,35,"703, 1801"
+Pass,Head pass,69,35,70,0,1802
+Duel,Ground attacking duel,39,70,55,76,"503, 703, 1801"
+Duel,Ground attacking duel,55,76,56,75,"703, 1801"
+Duel,Ground attacking duel,56,75,57,74,"703, 1801"
+Duel,Ground loose ball duel,75,65,69,69,"703, 1801"
+Offside,,77,39,100,100,
+Pass,Simple pass,64,67,58,72,1801
+Pass,High pass,57,54,66,29,1802
+Duel,Air duel,62,37,71,38,"703, 1801"
+Pass,High pass,59,35,69,87,1802
+Duel,Air duel,78,28,70,13,"701, 1802"
+Duel,Air duel,93,42,87,55,"701, 1802"
+Duel,Air duel,2,58,22,16,"703, 1801"
+Pass,Simple pass,31,43,29,52,1801
+Pass,Simple pass,59,25,41,9,1801
+Duel,Ground defending duel,66,83,61,83,"701, 1802"
+Pass,Simple pass,55,49,62,66,1802
+Shot,Shot,69,40,100,100,"402, 201, 1214, 1802"
+Duel,Air duel,71,34,70,10,"702, 1801"
+Others on the ball,Touch,60,21,53,46,
+Pass,High pass,53,46,82,12,1801
+Duel,Ground loose ball duel,87,47,78,64,"701, 1802"
+Pass,Simple pass,52,19,42,12,1801
+Pass,High pass,58,1,85,33,"901, 1802"
+Others on the ball,Touch,44,70,54,95,1401
+Duel,Ground attacking duel,54,95,61,93,"703, 1801"
+Duel,Ground attacking duel,61,93,64,91,"504, 703, 1801"
+Duel,Ground attacking duel,89,84,81,79,"602, 701, 1802"
+Pass,Head pass,38,56,32,63,1801
+Pass,Simple pass,29,39,33,84,1801
+Duel,Ground attacking duel,40,37,36,42,"701, 1802"
+Free Kick,Free Kick,43,12,37,24,1801
+Pass,Simple pass,56,10,39,11,1801
+Pass,Simple pass,60,10,61,20,1801
+Pass,Smart pass,72,39,87,42,1801
+Duel,Ground loose ball duel,75,24,79,49,"701, 1802"
+Duel,Ground defending duel,79,49,78,56,"701, 1802"
+Foul,Foul,78,56,79,49,1702
+Pass,Smart pass,55,78,70,65,"901, 1802"
+Pass,Simple pass,63,56,57,65,1801
+Duel,Ground loose ball duel,64,33,75,29,"701, 1802"
+Pass,Simple pass,47,48,61,16,1801
+Pass,Cross,91,71,72,28,"402, 1802"
+Pass,Simple pass,63,24,47,41,1801
+Others on the ball,Touch,70,12,70,19,
+Duel,Ground loose ball duel,70,19,69,20,"701, 1802"
+Duel,Ground defending duel,69,20,66,21,"701, 1802"
+Foul,Foul,66,21,69,20,
+Duel,Ground attacking duel,73,16,66,19,"502, 701, 1802"
+Pass,Simple pass,34,32,29,40,1801
+Pass,Simple pass,32,12,32,33,1801
+Pass,High pass,29,18,30,75,1801
+Others on the ball,Touch,66,43,72,28,
+Duel,Ground defending duel,58,29,50,16,"701, 1802"
+Duel,Ground loose ball duel,60,27,54,28,"703, 1801"
+Pass,Simple pass,54,28,70,56,1802
+Pass,Simple pass,44,27,32,49,1801
+Pass,Simple pass,31,35,36,92,1801
+Pass,Simple pass,31,39,29,10,1801
+Pass,Simple pass,47,20,55,32,1802
+Pass,Simple pass,40,27,27,27,1801
+Pass,High pass,42,33,75,95,1801
+Pass,Simple pass,63,73,65,40,1801
+Pass,Cross,76,36,97,70,"402, 801, 1801"
+Pass,Simple pass,23,13,10,10,1801
+Others on the ball,Clearance,9,46,29,98,"1401, 1801"
+Duel,Ground defending duel,40,69,25,42,"503, 701, 1802"
+Pass,Simple pass,30,39,14,41,1801
+Duel,Air duel,93,57,87,43,"701, 1802"
+Duel,Ground loose ball duel,60,70,61,71,"703, 1801"
+Pass,Simple pass,61,71,70,69,1801
+Duel,Air duel,37,76,30,96,"701, 1802"
+Pass,Simple pass,26,31,39,8,1801
+Duel,Ground defending duel,34,24,42,23,"702, 1801"
+Duel,Ground defending duel,45,82,43,81,"701, 1802"
+Foul,Foul,43,81,45,82,
+Pass,Simple pass,12,8,7,11,1801
+Pass,Head pass,29,41,54,56,"1401, 1802"
+Duel,Air duel,45,61,44,62,"703, 1801"
+Free Kick,Free Kick,44,60,64,81,1802
+Duel,Ground defending duel,56,49,67,56,"702, 1801"
+Pass,High pass,53,27,89,79,"901, 1802"
+Pass,Head pass,32,55,44,28,"1401, 1801"
+Pass,Simple pass,58,37,65,5,1801
+Duel,Air duel,75,35,78,46,"703, 1801"
+Others on the ball,Touch,39,89,22,44,1401
+Duel,Ground loose ball duel,22,44,43,87,"702, 1801"
+Pass,Simple pass,71,37,71,22,1801
+Pass,Simple pass,66,32,53,14,1801
+Duel,Ground attacking duel,33,16,25,27,"702, 1801"
+Pass,Simple pass,25,27,27,46,1801
+Pass,Simple pass,49,51,61,25,1801
+Pass,Simple pass,65,35,71,7,1801
+Pass,Simple pass,69,30,51,38,1801
+Pass,Simple pass,70,27,77,51,1801
+Duel,Air duel,36,62,31,53,"701, 1802"
+Pass,Simple pass,44,74,43,87,1801
+Duel,Ground defending duel,43,94,43,100,"702, 1801"
+Duel,Ground attacking duel,30,76,26,66,"2001, 701, 1802"
+Duel,Ground defending duel,29,61,22,60,"1601, 701, 1802"
+Pass,Simple pass,56,58,57,9,1801
+Pass,Simple pass,56,24,41,29,1801
+Duel,Ground defending duel,71,70,74,68,"702, 1801"
+Duel,Ground defending duel,28,33,24,34,"701, 1802"
+Pass,Simple pass,39,94,30,95,1801
+Others on the ball,Touch,46,95,50,100,1401
+Pass,Simple pass,37,74,29,93,"1401, 1801"
+Pass,Simple pass,34,81,20,61,1801
+Pass,Simple pass,45,70,43,92,1801
+Pass,High pass,46,81,81,78,1802
+Pass,Simple pass,26,80,17,74,1801
+Pass,Simple pass,59,79,64,51,"1401, 1802"
+Pass,Simple pass,66,19,58,14,1801
+Pass,Simple pass,66,11,57,6,1801
+Pass,Simple pass,32,63,29,88,1801
+Pass,Simple pass,34,77,22,65,1801
+Pass,High pass,38,78,78,70,"901, 1802"
+Pass,Simple pass,45,79,47,66,1802
+Duel,Ground attacking duel,21,52,16,54,"702, 1801"
+Pass,Simple pass,16,54,21,80,1801
+Pass,Smart pass,65,35,87,56,"901, 1802"
+Pass,Simple pass,58,23,61,13,1801
+Pass,Simple pass,49,16,43,79,1801
+Duel,Ground loose ball duel,42,87,42,91,"703, 1801"
+Pass,Head pass,42,91,62,93,1801
+Duel,Ground defending duel,52,27,59,55,"703, 1801"
+Pass,Smart pass,59,55,75,67,"901, 1802"
+Free Kick,Free Kick,64,65,78,94,1801
+Pass,Cross,69,82,92,41,"402, 801, 1801"
+Pass,Simple pass,29,22,30,4,1801
+Pass,Simple pass,49,23,63,95,1801
+Pass,Simple pass,55,68,65,54,1801
+Pass,Simple pass,56,65,55,14,1801
+Pass,Simple pass,38,19,16,32,"2001, 1802"
+Duel,Ground defending duel,16,32,8,29,"701, 1802"
+Duel,Ground loose ball duel,94,42,92,37,"703, 1801"
+Shot,Shot,92,37,0,0,"402, 201, 1211, 1802"
+Duel,Air duel,51,25,46,37,"703, 1801"
+Pass,Simple pass,55,21,40,16,1801
+Pass,Simple pass,50,35,55,58,1801
+Duel,Air duel,53,67,45,69,"701, 1802"
+Pass,High pass,42,20,64,23,1801
+Duel,Ground defending duel,62,7,66,6,"702, 1801"
+Pass,Smart pass,36,58,70,85,"1901, 1802"
+Pass,Simple pass,68,12,59,25,1801
+Pass,Simple pass,64,61,63,92,1801
+Pass,Simple pass,55,78,70,84,1801
+Pass,Simple pass,45,49,56,23,1801
+Pass,Simple pass,74,9,76,4,1801
+Pass,High pass,67,12,72,94,1801
+Pass,High pass,61,86,82,66,"901, 1802"
+Duel,Ground defending duel,56,67,56,64,"504, 701, 1802"
+Duel,Ground loose ball duel,94,43,93,30,"703, 1801"
+Pass,Simple pass,63,76,73,89,1801
+Duel,Ground defending duel,63,4,40,16,"504, 701, 1802"
+Duel,Ground loose ball duel,46,14,46,16,"701, 1802"
+Duel,Ground attacking duel,16,21,10,20,"702, 1801"
+Others on the ball,Clearance,10,20,37,27,1801
+Duel,Ground loose ball duel,13,25,12,24,"701, 1802"
+Foul,Foul,12,24,13,25,
+Others on the ball,Clearance,26,14,0,14,1802
+Others on the ball,Clearance,13,54,4,59,1801
+Duel,Ground defending duel,60,7,66,3,"1601, 702, 1801"
+Duel,Ground attacking duel,41,62,49,37,"703, 1801"
+Pass,High pass,36,77,76,82,1802
+Pass,Simple pass,37,57,31,30,1801
+Pass,High pass,48,59,77,84,1801
+Pass,Simple pass,58,67,53,86,1801
+Pass,Simple pass,73,28,80,31,1801
+Pass,Simple pass,39,13,32,34,1801
+Duel,Ground attacking duel,56,47,55,51,"702, 1801"
+Pass,Simple pass,55,51,56,48,1801
+Pass,Simple pass,51,44,49,38,1802
+Duel,Ground defending duel,24,17,28,25,"501, 701, 1802"
+Pass,Simple pass,64,39,58,71,1801
+Others on the ball,Touch,54,24,65,56,
+Pass,Simple pass,65,56,73,41,1801
+Pass,Simple pass,73,39,68,69,1801
+Pass,High pass,45,45,75,91,1802
+Pass,Simple pass,19,13,6,8,1801
+Duel,Ground defending duel,54,52,55,46,"702, 1801"
+Others on the ball,Touch,56,22,61,38,1401
+Pass,Simple pass,48,29,35,16,1801
+Pass,Simple pass,39,35,50,43,1801
+Pass,Simple pass,70,17,67,40,1801
+Duel,Ground loose ball duel,40,80,38,80,"1601, 703, 1801"
+Pass,Simple pass,38,80,31,91,1801
+Free Kick,Free kick shot,73,55,0,0,"402, 1101, 2101, 201, 1802"
+Pass,Simple pass,45,70,50,43,1801
+Duel,Ground defending duel,68,78,61,77,"701, 1802"
+Pass,Simple pass,41,34,34,34,1801
+Pass,Simple pass,38,14,42,30,1801
+Pass,Simple pass,35,16,34,45,1801
+Pass,High pass,64,61,75,97,1801
+Pass,Simple pass,61,65,66,21,1801
+Duel,Ground defending duel,65,22,63,31,"501, 703, 1801"
+Pass,Simple pass,60,17,65,47,1801
+Pass,Simple pass,67,61,71,52,1801
+Pass,Simple pass,72,32,71,62,1801
+Pass,Simple pass,63,78,67,82,1801
+Pass,Simple pass,67,97,89,94,1801
+Pass,Simple pass,3,17,18,36,1802
+Duel,Ground attacking duel,52,71,45,71,"702, 1801"
+Pass,Simple pass,45,71,44,85,1801
+Pass,High pass,44,66,64,12,1801
+Pass,High pass,50,39,83,92,1801
+Pass,High pass,72,6,79,72,1801
+Duel,Air duel,33,2,25,15,"701, 1802"
+Pass,High pass,37,6,88,0,1802
+Pass,Simple pass,54,53,61,13,1801
+Pass,Simple pass,68,16,36,25,1801
+Pass,Simple pass,53,70,58,8,1801
+Duel,Ground defending duel,60,3,64,4,"1601, 701, 1802"
+Foul,Foul,64,4,60,3,
+Pass,High pass,27,23,75,89,1801
+Pass,Simple pass,54,21,46,48,1801
+Pass,Simple pass,43,32,29,60,1801
+Pass,Simple pass,52,55,43,93,1801
+Pass,Simple pass,44,47,50,20,1801
+Pass,Simple pass,64,34,67,54,1801
+Pass,High pass,67,52,92,68,"901, 1802"
+Pass,Simple pass,36,11,44,29,1801
+Pass,Simple pass,44,37,38,84,1801
+Duel,Ground defending duel,41,42,45,48,"701, 1802"
+Foul,Foul,45,48,41,42,
+Pass,Simple pass,34,31,42,37,1801
+Others on the ball,Touch,28,19,31,10,1401
+Duel,Ground defending duel,33,33,32,38,"503, 601, 701, 1802"
+Foul,Foul,34,42,32,38,
+Pass,High pass,27,67,32,81,1802
+Others on the ball,Clearance,9,43,27,0,"1401, 1802"
+Free Kick,Free Kick,62,6,75,1,1801
+Free Kick,Free Kick,44,79,0,0,1802
+Duel,Ground attacking duel,69,64,69,49,"701, 1802"
+Pass,Head pass,43,19,39,2,1801
+Pass,Head pass,46,64,54,45,1801
+Pass,Simple pass,39,14,31,10,1801
+Pass,Simple pass,40,40,35,36,1801
+Duel,Ground attacking duel,74,55,76,70,"1401, 501, 702, 1801"
+Duel,Ground loose ball duel,76,70,69,88,"701, 1802"
+Pass,Simple pass,52,47,67,59,1801
+Duel,Ground defending duel,34,62,18,69,"1601, 701, 1802"
+Pass,Simple pass,12,67,14,92,"1401, 1801"
+Pass,Simple pass,28,75,21,71,1801
+Pass,Simple pass,41,36,48,56,1801
+Pass,High pass,77,73,92,27,1801
+Pass,Cross,95,33,100,100,"402, 2101, 1802"
+Pass,Simple pass,21,12,44,9,1801
+Pass,Head pass,41,30,36,30,1801
+Others on the ball,Touch,35,33,33,75,
+Pass,Simple pass,33,75,30,73,1802
+Duel,Ground attacking duel,95,42,88,24,"701, 1802"
+Pass,Simple pass,43,15,60,31,1801
+Duel,Ground loose ball duel,30,30,28,33,"702, 1801"
+Duel,Air duel,30,30,31,31,"702, 1801"
+Pass,Simple pass,19,18,46,19,1801
+Pass,Simple pass,55,27,55,17,1802
+Duel,Ground defending duel,29,11,31,7,"1601, 703, 1801"
+Pass,High pass,31,7,79,0,1802
+Pass,Head pass,72,10,65,26,1802
+Pass,Simple pass,65,34,78,92,1801
+Pass,Launch,11,48,44,50,1801
+Pass,Head pass,60,33,66,32,1802
+Pass,High pass,17,66,61,34,1801
+Pass,Simple pass,25,14,27,8,1801
+Duel,Ground attacking duel,27,8,19,22,"501, 703, 1801"
+Pass,High pass,30,6,45,13,1802
+Pass,Simple pass,55,52,47,52,1801
+Pass,Simple pass,50,47,73,87,1802
+Others on the ball,Touch,63,84,65,100,1401
+Pass,Simple pass,33,72,40,11,1801
+Pass,High pass,45,34,70,93,1801
+Pass,High pass,60,29,79,72,1801
+Pass,Simple pass,87,15,88,6,1801
+Pass,Cross,82,8,22,5,"402, 801, 1801"
+Others on the ball,Touch,24,12,30,27,
+Duel,Ground defending duel,23,19,36,32,"702, 1801"
+Pass,Simple pass,61,71,58,31,1801
+Pass,High pass,29,57,56,3,1802
+Pass,Simple pass,56,32,71,6,1801
+Pass,Simple pass,48,14,54,58,1801
+Pass,Simple pass,43,33,30,4,1801
+Pass,High pass,36,33,72,83,1801
+Pass,Simple pass,71,72,79,14,1801
+Pass,Simple pass,69,66,71,87,1801
+Shot,Shot,88,62,100,100,"402, 201, 1214, 1802"
+Others on the ball,Clearance,9,58,30,66,1801
+Duel,Ground attacking duel,38,26,40,25,"703, 1801"
+Pass,Simple pass,40,25,54,31,1801
+Pass,Simple pass,63,13,47,35,1801
+Pass,Simple pass,71,65,81,18,1801
+Pass,Simple pass,46,56,26,69,"1401, 1801"
+Duel,Ground defending duel,21,44,21,34,"501, 701, 1802"
+Pass,Simple pass,45,16,44,5,1801
+Pass,Simple pass,60,39,75,27,"1401, 1801"
+Pass,Simple pass,64,34,68,91,1801
+Pass,Simple pass,57,70,55,92,1801
+Pass,Simple pass,43,68,52,47,1801
+Others on the ball,Acceleration,47,49,66,28,1801
+Pass,Simple pass,66,28,74,21,1801
+Pass,Simple pass,54,48,73,16,1801
+Pass,Simple pass,60,17,57,3,1801
+Duel,Ground loose ball duel,36,61,43,68,"703, 1801"
+Pass,Simple pass,34,60,32,38,1801
+Pass,Simple pass,50,72,51,18,1801
+Others on the ball,Touch,9,56,17,87,1401
+Others on the ball,Acceleration,48,51,60,56,1801
+Pass,Simple pass,60,56,63,93,1801
+Pass,Simple pass,43,27,34,30,1801
+Pass,Simple pass,55,39,53,72,1801
+Duel,Ground loose ball duel,96,39,95,38,"702, 1801"
+Duel,Ground loose ball duel,95,38,97,28,"701, 1802"
+Pass,High pass,67,29,100,100,1802
+Pass,Simple pass,56,45,70,66,1801
+Others on the ball,Touch,12,46,0,68,1401
+Pass,Simple pass,30,69,38,68,"1901, 1802"
+Pass,Simple pass,28,63,55,6,"1901, 1401, 1801"
+Free Kick,Free kick cross,79,6,93,50,"801, 1801"
+Pass,High pass,42,72,82,27,1801
+Pass,Simple pass,66,28,85,7,"1401, 1801"
+Duel,Ground loose ball duel,31,44,36,44,"702, 1801"
+Others on the ball,Touch,31,47,32,39,
+Pass,High pass,34,48,86,87,1801
+Pass,Cross,68,90,88,38,"402, 801, 1801"
+Duel,Ground attacking duel,27,77,19,92,"501, 703, 1801"
+Pass,Simple pass,19,92,49,84,1801
+Pass,Simple pass,20,69,23,26,1801
+Duel,Ground defending duel,58,25,60,22,"1601, 701, 1802"
+Foul,Foul,60,22,58,25,
+Pass,Simple pass,64,23,53,21,1801
+Duel,Ground loose ball duel,33,24,44,18,"701, 1802"
+Pass,Simple pass,66,20,67,68,1801
+Pass,Simple pass,73,68,62,72,1801
+Pass,Simple pass,39,25,37,3,1801
+Duel,Air duel,34,71,38,77,"702, 1801"
+Pass,Simple pass,39,72,37,14,1801
+Pass,High pass,43,58,94,82,1802
+Duel,Air duel,34,79,58,73,"1901, 702, 1801"
+Pass,High pass,67,36,90,65,"1901, 901, 1802"
+Pass,Simple pass,68,67,55,25,1801
+Duel,Ground attacking duel,73,56,77,56,"502, 703, 1801"
+Pass,Simple pass,77,56,77,44,1801
+Pass,Simple pass,58,26,53,49,1801
+Pass,High pass,62,33,97,89,1801
+Pass,Simple pass,45,45,54,20,1801
+Pass,Simple pass,38,74,53,84,1801
+Pass,Simple pass,44,76,38,38,1801
+Duel,Ground loose ball duel,26,66,33,56,"701, 1802"
+Duel,Ground loose ball duel,34,67,27,69,"1601, 701, 1802"
+Others on the ball,Touch,18,59,12,57,1401
+Pass,Simple pass,65,6,41,19,1801
+Pass,Simple pass,70,48,69,69,1801
+Pass,Simple pass,70,58,71,74,1801
+Duel,Air duel,26,28,36,36,"701, 1802"
+Pass,Simple pass,28,38,24,53,1801
+Pass,Simple pass,68,49,94,86,1801
+Free Kick,Free Kick,39,75,74,73,1802
+Duel,Ground attacking duel,53,78,57,81,"502, 602, 703, 1801"
+Pass,Simple pass,58,32,60,67,1801
+Pass,Simple pass,62,60,55,72,1801
+Pass,Simple pass,54,72,70,59,1801
+Pass,Simple pass,25,60,26,54,1801
+Pass,High pass,30,61,57,6,1801
+Pass,Simple pass,45,8,67,29,1801
+Duel,Air duel,69,75,58,79,"703, 1801"
+Pass,Head pass,36,30,63,5,"1401, 1801"
+Pass,Simple pass,61,11,56,4,1801
+Shot,Shot,69,50,0,0,"402, 1212, 1802"
+Others on the ball,Touch,10,32,10,17,1401
+Duel,Ground defending duel,10,17,3,18,"502, 701, 1802"
+Pass,Simple pass,60,32,54,52,1801
+Pass,High pass,35,13,69,27,1802
+Pass,Simple pass,38,28,53,48,"1401, 1801"
+Pass,Simple pass,60,74,55,57,1801
+Pass,Simple pass,68,71,74,42,1801
+Pass,Smart pass,58,15,85,9,1802
+Pass,Simple pass,44,67,0,0,1802
+Pass,High pass,26,85,69,82,1802
+Pass,Simple pass,53,76,75,95,1801
+Duel,Ground loose ball duel,38,75,47,71,"701, 1802"
+Foul,Foul,47,71,38,75,
+Duel,Air duel,13,49,14,56,"701, 1802"
+Others on the ball,Clearance,12,44,22,12,"1401, 1802"
+Duel,Ground defending duel,21,32,21,34,"702, 1801"
+Pass,Simple pass,59,67,51,51,"1401, 1801"
+Duel,Ground loose ball duel,26,78,25,98,"703, 1801"
+Pass,Simple pass,23,94,23,92,1801
+Duel,Ground loose ball duel,73,81,75,79,"701, 1802"
+Shot,Shot,73,51,0,0,"402, 2101, 1802"
+Pass,Simple pass,29,33,47,22,1801
+Pass,Simple pass,45,39,54,77,1801
+Pass,Simple pass,53,51,54,0,1802
+Pass,Simple pass,46,53,32,50,1801
+Pass,Head pass,62,94,69,51,1802
+Pass,High pass,35,51,92,81,1802
+Pass,Launch,17,90,39,75,1801
+Duel,Ground defending duel,15,88,15,88,"502, 701, 1802"
+Others on the ball,Acceleration,27,71,59,62,1801
+Pass,Simple pass,59,62,78,20,1801
+Pass,Simple pass,72,61,72,96,1801
+Pass,Simple pass,68,75,60,46,1801
+Pass,Simple pass,34,64,48,43,1801
+Pass,Simple pass,48,74,56,96,"1401, 1801"
+Pass,Simple pass,45,35,41,28,1801
+Pass,Simple pass,54,47,54,55,1801
+Pass,Simple pass,53,46,43,59,1801
+Pass,High pass,58,33,94,28,1801
+Free Kick,Penalty,90,51,92,36,"402, 1205, 1802"
+Pass,Head pass,43,73,56,76,1801
+Duel,Ground defending duel,44,17,39,21,"701, 1802"
+Pass,High pass,38,39,72,95,1801
+Free Kick,Free Kick,53,45,48,56,1801
+Pass,Simple pass,49,48,61,20,1801
+Pass,Simple pass,48,34,30,52,1801
+Pass,Simple pass,55,40,42,37,1801
+Pass,Simple pass,59,43,70,81,1801
+Pass,Simple pass,73,64,57,64,1801
+Duel,Ground attacking duel,34,42,30,48,"2001, 701, 1802"
+Duel,Ground defending duel,27,53,22,35,"1601, 701, 1802"
+Pass,Simple pass,36,85,31,77,1801
+Pass,Simple pass,29,41,36,72,1801
+Pass,Simple pass,32,83,29,89,"1401, 1801"
+Pass,Simple pass,65,35,59,62,1801
+Free Kick,Free kick cross,65,95,92,44,"302, 801, 1801"
+Pass,Simple pass,68,92,58,57,1801
+Pass,Simple pass,95,93,87,92,1801
+Pass,Simple pass,67,77,57,48,1801
+Pass,Simple pass,30,91,19,100,"1401, 1802"
+Pass,High pass,29,14,58,20,1801
+Pass,Simple pass,26,71,30,74,1802
+Pass,Simple pass,69,49,76,8,"1901, 1801"
+Pass,Simple pass,31,32,29,49,1801
+Free Kick,Corner,100,100,93,55,"801, 1801"
+Pass,Simple pass,30,79,31,56,1801
+Duel,Ground defending duel,26,53,23,55,"701, 1802"
+Pass,Simple pass,65,23,81,8,1801
+Pass,Simple pass,50,35,38,19,1801
+Pass,Simple pass,30,51,33,64,1801
+Duel,Ground loose ball duel,26,78,26,71,"701, 1802"
+Pass,Simple pass,20,51,25,61,"1401, 1801"
+Duel,Ground loose ball duel,27,39,28,47,"703, 1801"
+Pass,High pass,42,32,73,55,"901, 1802"
+Free Kick,Free kick cross,66,47,89,74,"801, 1801"
+Others on the ball,Touch,40,29,59,42,
+Pass,Simple pass,59,42,71,83,1801
+Pass,Simple pass,71,73,71,85,1801
+Pass,Simple pass,30,50,25,9,1801
+Others on the ball,Touch,29,50,59,20,
+Pass,Simple pass,59,20,69,6,1801
+Pass,Simple pass,59,12,67,64,1801
+Pass,Simple pass,55,51,61,14,1801
+Pass,Simple pass,54,48,62,74,1801
+Pass,High pass,58,66,69,18,1802
+Pass,High pass,69,42,89,62,"901, 1802"
+Pass,Smart pass,60,65,70,43,"1901, 901, 1802"
+Others on the ball,Touch,44,54,62,73,
+Pass,Simple pass,62,73,75,88,1801
+Pass,Simple pass,29,76,27,98,1801
+Others on the ball,Touch,29,86,40,70,
+Pass,High pass,40,70,63,31,1802
+Pass,Simple pass,34,71,29,88,1801
+Pass,Simple pass,53,36,57,60,1801
+Pass,Simple pass,57,92,51,69,1801
+Duel,Ground attacking duel,65,80,57,100,"702, 1801"
+Pass,Simple pass,44,78,38,64,1801
+Others on the ball,Touch,41,42,58,37,
+Pass,Simple pass,58,37,67,9,1801
+Pass,Simple pass,55,16,45,48,1801
+Pass,Simple pass,63,71,53,39,1801
+Shot,Shot,72,58,100,100,"402, 201, 1205, 1801"
+Others on the ball,Touch,48,9,58,26,
+Pass,Simple pass,58,26,63,49,1801
+Others on the ball,Touch,41,83,60,85,
+Pass,High pass,60,85,89,62,"901, 1802"
+Others on the ball,Touch,20,34,33,21,1401
+Pass,Smart pass,56,48,93,73,"901, 1801"
+Pass,Simple pass,63,53,65,84,1801
+Pass,Simple pass,55,67,52,75,1802
+Pass,High pass,64,37,91,85,1801
+Free Kick,Corner,100,98,94,53,"801, 1802"
+Pass,Cross,93,81,90,49,"302, 402, 801, 1801"
+Others on the ball,Touch,84,87,76,91,
+Free Kick,Corner,100,0,93,39,1801
+Free Kick,Corner,100,0,89,34,1801
+Free Kick,Free kick shot,72,55,100,100,"402, 1101, 201, 1203, 1801"
+Pass,Simple pass,65,23,68,41,1801
+Pass,Simple pass,64,50,67,24,"1901, 1801"
+Pass,Simple pass,54,64,67,89,1801
+Duel,Ground defending duel,25,70,43,71,"504, 1601, 703, 1801"
+Pass,Smart pass,43,71,80,41,"901, 1801"
+Duel,Ground defending duel,45,74,33,77,"501, 701, 1802"
+Free Kick,Corner,100,0,87,62,"801, 1802"
+Pass,Simple pass,89,12,72,24,1801
+Pass,High pass,43,59,87,9,1801
+Pass,Simple pass,56,68,46,42,1801
+Free Kick,Corner,100,100,92,66,"801, 1802"
+Duel,Ground defending duel,60,20,60,18,"702, 1801"
+Pass,Simple pass,44,46,36,81,1801
+Pass,High pass,53,66,57,5,1801
+Pass,Simple pass,53,49,36,62,1801
+Pass,Simple pass,30,56,32,70,1801
+Free Kick,Corner,100,100,94,93,1801
+Pass,High pass,29,84,64,88,1801
+Duel,Ground defending duel,58,27,47,46,"1601, 701, 1802"
+Free Kick,Free Kick,43,31,64,3,1801
+Duel,Ground attacking duel,58,20,54,16,"702, 1801"
+Pass,Simple pass,54,16,44,42,1801
+Pass,Simple pass,68,65,72,84,1801
+Pass,Simple pass,32,26,30,64,1801
+Pass,Simple pass,35,71,29,44,1801
+Others on the ball,Touch,55,85,64,84,1401
+Others on the ball,Touch,64,84,64,80,
+Pass,Simple pass,28,25,25,7,1801
+Duel,Ground defending duel,21,31,13,7,"502, 701, 1802"
+Pass,Launch,24,56,24,68,1802
+Duel,Ground defending duel,67,63,70,66,"702, 1801"
+Duel,Ground attacking duel,59,34,54,39,"702, 1801"
+Duel,Ground attacking duel,54,39,44,55,"702, 1801"
+Duel,Ground loose ball duel,51,51,46,54,"1601, 701, 1802"
+Free Kick,Free kick cross,76,92,90,36,"302, 801, 1801"
+Duel,Ground defending duel,13,68,6,76,"501, 701, 1802"
+Pass,High pass,27,41,52,92,1802
+Duel,Ground defending duel,39,44,41,49,"702, 1801"
+Pass,Simple pass,13,31,39,48,1802
+Pass,Simple pass,68,47,79,90,1801
+Pass,Simple pass,30,17,30,33,1801
+Pass,Simple pass,26,93,22,97,1801
+Pass,High pass,61,94,98,91,1801
+Free Kick,Corner,100,100,88,49,"801, 1801"
+Others on the ball,Clearance,12,44,29,2,"1401, 1802"
+Pass,Simple pass,52,86,65,95,1802
+Pass,Simple pass,45,35,37,18,1801
+Shot,Shot,73,58,0,0,"402, 1212, 1802"
+Pass,High pass,69,73,88,33,1802
+Duel,Ground defending duel,49,35,49,50,"501, 701, 1802"
+Duel,Ground defending duel,88,78,85,100,"501, 1601, 702, 1801"
+Pass,Simple pass,66,91,79,77,1801
+Duel,Air duel,30,27,22,8,"701, 1802"
+Duel,Ground defending duel,64,70,40,94,"501, 1601, 701, 1802"
+Others on the ball,Touch,33,96,28,100,1401
+Pass,Head pass,12,67,14,88,1801
+Free Kick,Corner,100,0,91,50,"801, 1802"
+Pass,Simple pass,49,42,47,47,1802
+Pass,Simple pass,64,22,63,42,1801
+Pass,Simple pass,63,42,57,83,1801
+Duel,Ground attacking duel,66,36,69,30,"703, 1801"
+Pass,Simple pass,69,30,83,4,1801
+Pass,Simple pass,56,31,64,70,1801
+Pass,Simple pass,68,64,61,69,1802
+Duel,Ground defending duel,61,69,61,72,"503, 701, 1802"
+Pass,Simple pass,48,40,59,31,1801
+Pass,Simple pass,44,33,25,75,1801
+Pass,Simple pass,58,58,51,71,1801
+Pass,Simple pass,56,77,45,43,1801
+Duel,Ground defending duel,53,63,54,78,"501, 701, 1802"
+Duel,Ground attacking duel,62,40,57,37,"701, 1802"
+Duel,Ground defending duel,57,37,51,36,"701, 1802"
+Foul,Foul,51,36,57,37,
+Others on the ball,Touch,30,72,32,58,1401
+Pass,Simple pass,68,68,56,70,1801
+Pass,High pass,68,32,88,48,"901, 1802"
+Duel,Ground attacking duel,56,53,54,70,"501, 702, 1801"
+Duel,Ground loose ball duel,54,70,61,72,"701, 1802"
+Duel,Ground defending duel,48,58,31,58,"501, 701, 1802"
+Others on the ball,Clearance,13,58,37,69,"1401, 1801"
+Others on the ball,Clearance,13,47,66,69,1802
+Pass,Simple pass,80,30,75,31,1801
+Pass,Simple pass,79,26,68,33,1801
+Pass,Simple pass,71,66,59,73,1801
+Pass,Smart pass,68,84,100,77,"901, 1802"
+Duel,Ground attacking duel,34,22,38,25,"703, 1801"
+Duel,Ground loose ball duel,23,57,26,51,"1601, 702, 1801"
+Duel,Ground loose ball duel,26,51,27,49,"701, 1802"
+Pass,Simple pass,36,63,29,46,1801
+Pass,Simple pass,75,28,84,14,1801
+Pass,Simple pass,59,30,46,44,1801
+Pass,Simple pass,39,21,63,22,1801
+Pass,Simple pass,43,64,29,59,1801
+Pass,High pass,40,53,80,18,1802
+Free Kick,Corner,100,0,93,53,"801, 1801"
+Pass,Cross,82,23,90,40,"402, 1802"
+Duel,Ground defending duel,63,34,32,43,"504, 701, 1802"
+Duel,Ground defending duel,39,65,43,75,"701, 1802"
+Foul,Foul,43,75,39,65,
+Pass,Simple pass,48,54,61,88,1801
+Pass,Simple pass,47,65,56,29,1801
+Pass,Simple pass,53,65,36,87,1801
+Pass,High pass,79,63,92,31,1801
+Pass,Simple pass,65,60,67,70,1801
+Pass,Simple pass,77,77,73,68,1801
+Pass,Simple pass,64,78,77,67,1801
+Pass,Simple pass,68,81,72,39,1801
+Pass,Simple pass,25,75,24,63,1801
+Free Kick,Free kick cross,64,36,90,58,"801, 1801"
+Duel,Air duel,46,52,41,64,"703, 1801"
+Duel,Ground loose ball duel,41,64,53,86,"701, 1802"
+Duel,Ground defending duel,65,64,35,36,"701, 1802"
+Foul,Foul,63,66,65,64,
+Duel,Ground defending duel,27,71,73,29,"702, 1801"
+Pass,Simple pass,38,66,34,42,1801
+Pass,Simple pass,33,63,32,51,1801
+Pass,Simple pass,33,63,44,90,1801
+Pass,Simple pass,33,69,25,34,1801
+Pass,Simple pass,48,28,42,33,1801
+Pass,Simple pass,70,42,73,30,1801
+Pass,Simple pass,68,43,69,96,1801
+Pass,High pass,66,80,92,92,1801
+Others on the ball,Touch,31,94,33,100,1401
+Pass,Head pass,32,32,45,35,1802
+Pass,Simple pass,31,46,35,60,1802
+Free Kick,Corner,100,100,90,52,"801, 1802"
+Free Kick,Free kick cross,63,62,90,39,"801, 1801"
+Pass,Simple pass,66,44,73,97,1801
+Others on the ball,Touch,77,93,93,92,1401
+Others on the ball,Touch,95,95,100,87,1401
+Duel,Ground attacking duel,36,26,32,23,"702, 1801"
+Pass,Simple pass,32,23,27,7,1801
+Pass,Simple pass,66,88,72,98,1801
+Pass,Simple pass,27,81,10,75,1801
+Shot,Shot,75,52,100,100,"402, 201, 1212, 1802"
+Pass,Simple pass,60,36,66,78,1802
+Duel,Ground defending duel,49,28,48,28,"701, 1802"
+Duel,Air duel,31,65,22,56,"701, 1802"
+Duel,Ground attacking duel,71,41,66,41,"701, 1802"
+Duel,Ground defending duel,5,34,7,44,"501, 1601, 703, 1801"
+Free Kick,Corner,100,0,80,60,"801, 1802"
+Pass,Simple pass,45,24,34,11,1801
+Pass,Simple pass,47,30,38,39,1801
+Pass,Simple pass,48,23,60,9,1801
+Pass,High pass,45,19,82,40,1801
+Duel,Ground attacking duel,58,21,56,31,"702, 1801"
+Pass,Simple pass,56,31,42,91,1801
+Pass,Simple pass,71,61,73,53,1801
+Free Kick,Free kick shot,75,51,100,100,"402, 1101, 201, 1215, 1802"
+Others on the ball,Touch,61,23,65,18,
+Duel,Ground loose ball duel,65,18,68,19,"701, 1802"
+Duel,Ground defending duel,68,19,61,20,"701, 1802"
+Duel,Ground attacking duel,74,19,66,27,"1401, 503, 703, 1801"
+Pass,Simple pass,74,10,66,7,1801
+Pass,Simple pass,63,60,56,91,1801
+Duel,Ground attacking duel,66,10,34,90,"702, 1801"
+Pass,Simple pass,66,63,45,45,1801
+Pass,Simple pass,70,26,82,13,1802
+Free Kick,Corner,100,100,10,45,"801, 1801"
+Duel,Ground defending duel,76,55,24,45,"701, 1802"
+Pass,Simple pass,43,23,44,43,1801
+Pass,High pass,36,35,82,20,"901, 1802"
+Pass,High pass,54,41,67,94,1801
+Pass,Simple pass,63,77,33,74,1801
+Pass,Simple pass,40,30,52,74,1801
+Pass,Simple pass,62,77,46,60,1801
+Pass,Simple pass,75,60,63,55,1801
+Shot,Shot,73,59,0,0,"402, 2101, 1802"
+Pass,High pass,68,51,94,42,"901, 1802"
+Others on the ball,Touch,37,11,39,33,
+Pass,Simple pass,39,33,33,49,1801
+Pass,Simple pass,64,85,73,71,1802
+Pass,Simple pass,68,96,58,86,1801
+Pass,Simple pass,41,64,71,94,1801
+Pass,Simple pass,64,72,64,85,1802
+Pass,Simple pass,39,66,38,59,1801
+Pass,Simple pass,63,62,58,77,1801
+Pass,Simple pass,55,70,43,81,1801
+Pass,Simple pass,47,68,55,35,1801
+Free Kick,Corner,100,100,88,48,"801, 1801"
+Pass,Simple pass,89,99,80,89,1801
+Free Kick,Free kick cross,65,77,91,33,"801, 1801"
+Free Kick,Corner,100,0,92,60,"801, 1801"
+Pass,Cross,76,17,89,60,"402, 801, 1801"
+Free Kick,Corner,100,100,90,47,"801, 1801"
+Others on the ball,Touch,37,80,61,92,
+Duel,Ground attacking duel,61,92,51,100,"702, 1801"
+Others on the ball,Touch,25,45,27,42,1401
+Pass,Simple pass,27,42,29,58,1801
+Duel,Ground attacking duel,61,29,43,20,"702, 1801"
+Pass,Simple pass,43,20,56,67,1801
+Pass,Simple pass,72,31,85,14,1801
+Pass,Simple pass,57,29,63,10,1801
+Pass,Simple pass,50,48,46,58,1801
+Pass,Simple pass,59,21,73,22,1801
+Pass,Simple pass,62,68,58,78,1801
+Pass,High pass,40,69,73,72,"901, 1802"
+Pass,Simple pass,57,71,63,69,1801
+Pass,Simple pass,67,76,67,96,1802
+Duel,Ground defending duel,59,51,70,63,"504, 703, 1801"
+Pass,Simple pass,70,63,86,69,1801
+Duel,Ground attacking duel,56,24,55,25,"702, 1801"
+Pass,Simple pass,55,25,38,30,1801
+Pass,Simple pass,57,30,38,48,1801
+Pass,Head pass,24,59,38,53,1802
+Shot,Shot,72,32,0,0,"402, 201, 1210, 1802"
+Pass,Simple pass,30,51,21,35,1801
+Pass,Simple pass,63,63,66,91,1801
+Duel,Ground attacking duel,62,79,69,85,"503, 701, 1802"
+Pass,Simple pass,68,70,81,53,1801
+Pass,Simple pass,56,24,56,18,1801
+Free Kick,Free kick cross,60,16,88,62,"801, 1801"
+Duel,Ground attacking duel,48,7,34,0,"702, 1801"
+Pass,High pass,37,32,34,76,1801
+Others on the ball,Touch,64,14,51,0,1401
+Pass,Launch,30,17,44,0,1802
+Pass,Simple pass,30,31,33,7,1801
+Free Kick,Free kick cross,60,16,77,74,"801, 1801"
+Pass,Simple pass,29,31,32,15,1801
+Pass,Smart pass,69,51,79,61,"901, 1802"
+Duel,Ground defending duel,66,69,71,74,"702, 1801"
+Pass,Simple pass,54,87,45,73,1801
+Pass,High pass,40,88,35,35,1801
+Pass,Simple pass,39,51,37,73,1801
+Pass,Simple pass,55,75,44,47,1801
+Pass,High pass,49,52,82,0,1802
+Others on the ball,Touch,2,66,0,78,1401
+Others on the ball,Clearance,10,39,7,96,"1401, 1802"
+Pass,Head pass,9,44,19,33,"1401, 1801"
+Pass,High pass,35,66,64,9,1801
+Free Kick,Corner,100,100,91,54,"801, 1801"
+Others on the ball,Touch,37,25,45,22,
+Duel,Ground loose ball duel,45,22,62,17,"703, 1801"
+Pass,Simple pass,41,28,46,74,1801
+Pass,High pass,38,10,27,53,1801
+Duel,Air duel,68,48,73,56,"701, 1802"
+Pass,Simple pass,68,64,65,83,1801
+Duel,Ground attacking duel,39,10,39,6,"702, 1801"
+Duel,Ground attacking duel,39,6,34,5,"703, 1801"
+Pass,Simple pass,54,71,42,93,"1401, 1801"
+Pass,High pass,35,81,73,78,1801
+Duel,Ground loose ball duel,56,19,54,33,"703, 1801"
+Duel,Ground loose ball duel,69,60,70,92,"701, 1802"
+Duel,Ground loose ball duel,65,65,57,69,"701, 1802"
+Pass,Simple pass,63,21,30,8,1801
+Pass,Simple pass,54,17,66,21,1801
+Pass,High pass,71,53,92,29,1801
+Others on the ball,Touch,41,68,46,55,
+Pass,Simple pass,71,16,70,6,1801
+Duel,Ground attacking duel,62,16,53,18,"702, 1801"
+Pass,Simple pass,53,18,31,35,1801
+Pass,High pass,47,17,95,10,1801
+Pass,Simple pass,39,16,37,64,1801
+Pass,Simple pass,70,42,67,9,1801
+Pass,Simple pass,47,14,71,21,"1901, 1802"
+Pass,Simple pass,38,25,35,4,1801
+Pass,Simple pass,42,29,58,85,1801
+Pass,Simple pass,46,20,28,6,1801
+Pass,High pass,44,47,52,87,1801
+Pass,Simple pass,55,80,33,81,1801
+Pass,Simple pass,73,49,75,32,1801
+Pass,Simple pass,51,43,66,52,1801
+Free Kick,Corner,100,100,74,3,"801, 1801"
+Shot,Shot,83,84,100,100,"402, 201, 1210, 1802"
+Duel,Ground attacking duel,59,28,52,21,"702, 1801"
+Pass,Simple pass,52,21,36,7,1801
+Others on the ball,Touch,37,11,34,12,
+Duel,Ground defending duel,29,54,26,82,"502, 701, 1802"
+Others on the ball,Touch,26,54,32,0,1401
+Pass,Simple pass,52,57,65,40,"1901, 1802"
+Duel,Air duel,68,57,71,79,"701, 1802"
+Pass,Simple pass,59,35,50,49,1801
+Free Kick,Corner,100,100,90,41,"801, 1801"
+Pass,High pass,29,21,69,0,1802
+Pass,Simple pass,46,56,65,35,1801
+Pass,Simple pass,71,50,89,89,1801
+Pass,Cross,73,78,100,100,"402, 801, 1802"
+Pass,Simple pass,35,43,31,48,1801
+Pass,Smart pass,85,40,91,41,1802
+Pass,Smart pass,75,39,79,33,"901, 1802"
+Pass,Simple pass,61,29,31,26,1801
+Pass,Launch,26,65,71,29,1802
+Duel,Ground defending duel,20,91,16,84,"501, 701, 1802"
+Others on the ball,Touch,20,87,10,69,1401
+Pass,Simple pass,39,74,31,80,1801
+Pass,Simple pass,42,34,47,54,1801
+Pass,Simple pass,68,22,67,73,1801
+Pass,Simple pass,65,70,69,65,1801
+Pass,Simple pass,50,49,34,32,1801
+Pass,High pass,38,16,81,97,1801
+Pass,Simple pass,35,19,61,86,1801
+Others on the ball,Acceleration,34,25,58,43,1801
+Pass,Simple pass,58,43,70,28,1801
+Pass,High pass,58,44,89,82,1801
+Pass,Simple pass,36,18,64,4,1801
+Pass,Simple pass,62,36,62,5,1801
+Duel,Ground attacking duel,67,16,67,11,"502, 703, 1801"
+Pass,Simple pass,67,11,72,4,1801
+Pass,High pass,65,14,63,89,1801
+Pass,Simple pass,72,41,78,89,1801
+Pass,High pass,66,83,72,12,1801
+Pass,Simple pass,37,16,25,6,1801
+Pass,Simple pass,34,5,12,8,1801
+Free Kick,Free Kick,44,3,34,5,1801
+Pass,Simple pass,44,38,35,21,1801
+Duel,Ground attacking duel,40,35,32,17,"702, 1801"
+Pass,Simple pass,44,42,29,49,1801
+Pass,Simple pass,50,38,67,3,1801
+Pass,Simple pass,64,14,72,17,1801
+Pass,Simple pass,65,25,75,20,1801
+Pass,High pass,46,46,68,13,1802
+Pass,Simple pass,41,10,29,9,1801
+Pass,Simple pass,28,28,50,10,1801
+Pass,Simple pass,48,19,65,12,1801
+Pass,Simple pass,42,22,31,24,1801
+Pass,Simple pass,56,46,49,63,1801
+Others on the ball,Clearance,13,42,32,38,"1401, 1801"
+Pass,Simple pass,35,33,56,55,1801
+Pass,Simple pass,52,49,75,83,1801
+Pass,Simple pass,71,59,57,35,1801
+Pass,Smart pass,66,72,91,50,"901, 1801"
+Shot,Shot,81,61,0,0,"402, 201, 1203, 1801"
+Pass,Simple pass,57,52,57,22,1801
+Pass,Simple pass,60,55,54,41,1801
+Duel,Ground attacking duel,55,51,61,43,"703, 1801"
+Pass,Simple pass,61,43,73,18,1801
+Pass,Simple pass,36,30,7,43,1801
+Pass,Simple pass,56,28,72,27,1801
+Pass,Simple pass,69,25,79,9,1801
+Pass,Simple pass,69,39,68,57,1801
+Pass,High pass,66,20,82,90,1801
+Pass,High pass,54,10,99,8,1802
+Duel,Ground attacking duel,30,33,30,25,"702, 1801"
+Duel,Ground loose ball duel,30,25,26,28,"701, 1802"
+Others on the ball,Clearance,4,46,57,83,1802
+Duel,Ground attacking duel,33,16,33,11,"703, 1801"
+Free Kick,Free kick shot,78,71,0,0,"402, 1101, 1216, 1802"
+Pass,Simple pass,46,34,52,81,1801
+Pass,High pass,67,59,83,96,1801
+Duel,Air duel,67,80,66,75,"701, 1802"
+Pass,Simple pass,33,25,28,46,1801
+Pass,Simple pass,57,39,61,29,1801
+Pass,Simple pass,64,55,82,10,1801
+Pass,Simple pass,67,51,67,71,1801
+Pass,Simple pass,60,57,64,44,1801
+Pass,Cross,92,18,91,43,"401, 801, 1802"
+Pass,High pass,39,71,88,50,"901, 1802"
+Duel,Ground defending duel,67,20,65,23,"502, 701, 1802"
+Foul,Foul,65,23,67,20,
+Duel,Ground attacking duel,49,16,55,8,"702, 1801"
+Pass,Head pass,29,56,34,32,"1401, 1802"
+Shot,Shot,87,53,0,0,"402, 201, 1205, 1801"
+Pass,Simple pass,44,36,61,58,1801
+Pass,Simple pass,65,48,83,56,1801
+Duel,Ground attacking duel,5,30,5,38,"1401, 702, 1801"
+Pass,Launch,5,38,57,49,1802
+Pass,Smart pass,76,45,78,29,"1901, 901, 1802"
+Pass,Simple pass,42,24,33,20,1801
+Pass,Simple pass,42,35,36,73,1801
+Pass,Simple pass,45,54,47,57,1801
+Pass,Simple pass,76,27,86,31,"1401, 1802"
+Duel,Ground defending duel,71,25,73,21,"702, 1801"
+Pass,Simple pass,48,22,43,32,1801
+Pass,High pass,49,28,82,85,1802
+Free Kick,Corner,100,100,92,37,"801, 1802"
+Pass,Simple pass,68,9,67,64,1801
+Duel,Ground attacking duel,51,25,30,18,"702, 1801"
+Pass,Simple pass,44,5,36,24,1801
+Pass,High pass,52,15,80,17,1801
+Free Kick,Throw in,48,0,36,18,1801
+Pass,High pass,45,21,56,84,1801
+Pass,Simple pass,59,30,69,54,1801
+Duel,Ground attacking duel,68,30,70,37,"501, 703, 1801"
+Shot,Shot,70,37,0,0,"402, 1214, 1802"
+Pass,Simple pass,45,30,57,5,1801
+Pass,Simple pass,67,17,72,71,1801
+Pass,Simple pass,56,29,54,34,1801
+Pass,Simple pass,58,25,65,18,1801
+Pass,Simple pass,58,14,70,26,1801
+Duel,Ground attacking duel,61,26,61,15,"502, 703, 1801"
+Pass,Simple pass,61,15,61,4,1801
+Duel,Ground loose ball duel,27,34,31,35,"703, 1801"
+Pass,Simple pass,59,33,56,24,1801
+Pass,Simple pass,42,35,52,11,1801
+Others on the ball,Touch,67,22,61,33,1401
+Pass,Simple pass,53,43,52,76,1801
+Pass,High pass,53,64,59,5,1801
+Duel,Ground defending duel,55,39,38,48,"504, 701, 1802"
+Pass,Simple pass,54,17,59,56,1801
+Free Kick,Corner,100,100,94,51,"801, 1801"
+Pass,Simple pass,44,80,61,95,1801
+Duel,Ground attacking duel,64,65,71,62,"701, 1802"
+Pass,Simple pass,56,58,71,60,1801
+Pass,Simple pass,67,50,73,12,1801
+Pass,Simple pass,67,32,57,56,1801
+Free Kick,Free kick cross,72,20,93,49,"302, 801, 1801"
+Pass,Simple pass,27,34,27,33,1801
+Duel,Air duel,36,22,30,28,"701, 1802"
+Free Kick,Corner,100,100,87,38,"801, 1801"
+Free Kick,Free kick cross,68,66,89,38,"801, 1802"
+Pass,Simple pass,70,91,54,1,1801
+Pass,Simple pass,34,37,68,71,1801
+Duel,Ground attacking duel,75,59,75,62,"501, 602, 702, 1801"
+Duel,Ground loose ball duel,75,62,71,73,"703, 1801"
+Pass,Simple pass,71,73,85,88,1801
+Free Kick,Free kick cross,66,32,0,0,"801, 1802"
+Pass,Simple pass,47,28,53,43,1801
+Pass,High pass,62,19,78,81,1801
+Free Kick,Corner,100,100,90,41,"302, 801, 1801"
+Pass,Simple pass,64,51,57,68,1801
+Pass,Simple pass,53,40,66,9,1801
+Pass,Simple pass,62,12,63,4,1801
+Pass,Simple pass,56,21,43,34,1801
+Pass,Simple pass,57,65,68,74,1801
+Pass,Simple pass,65,66,73,27,1802
+Duel,Ground loose ball duel,31,55,30,52,"703, 1801"
+Others on the ball,Touch,30,52,30,48,1302
+Duel,Ground defending duel,30,48,29,48,"701, 1802"
+Foul,Foul,29,48,30,48,
+Pass,Simple pass,32,48,26,20,1801
+Pass,Simple pass,49,44,35,58,1801
+Pass,High pass,56,19,89,97,1801
+Pass,Simple pass,49,51,48,56,1801
+Duel,Ground attacking duel,72,27,70,41,"501, 703, 1801"
+Pass,Simple pass,70,41,69,60,1801
+Pass,Simple pass,71,58,81,84,1801
+Free Kick,Corner,100,100,88,46,"801, 1801"
+Pass,Simple pass,74,32,86,75,1801
+Pass,Simple pass,26,22,16,5,1801
+Pass,High pass,76,28,74,94,1801
+Pass,Simple pass,24,16,18,36,1801
+Pass,Simple pass,47,31,47,47,1801
+Pass,Simple pass,63,26,78,28,1801
+Pass,Simple pass,72,38,55,28,1801
+Pass,Simple pass,74,6,65,6,1801
+Duel,Ground attacking duel,71,42,81,36,"503, 703, 1801"
+Shot,Shot,81,36,0,0,"402, 201, 1202, 1801"
+Free Kick,Corner,100,100,97,59,"801, 1802"
+Pass,Cross,73,93,88,56,"402, 801, 1801"
+Pass,Simple pass,24,33,37,11,1802
+Pass,Simple pass,37,5,45,31,1801
+Pass,Simple pass,47,66,44,49,1801
+Pass,Simple pass,72,14,79,32,1801
+Free Kick,Corner,100,100,79,6,"801, 1801"
+Pass,Simple pass,41,46,59,86,1801
+Free Kick,Free kick cross,68,79,90,45,"801, 1801"
+Pass,High pass,62,68,90,46,"302, 901, 1801"
+Pass,Simple pass,73,10,77,6,1801
+Pass,Simple pass,41,23,41,5,1801
+Pass,Simple pass,67,19,73,4,1801
+Pass,Simple pass,70,18,78,44,1801
+Pass,Simple pass,41,29,74,63,1801
+Pass,Simple pass,37,28,31,46,1801
+Pass,Simple pass,35,23,38,29,1801
+Pass,Simple pass,44,19,32,31,1801
+Duel,Ground attacking duel,83,54,85,50,"503, 703, 1801"
+Shot,Shot,85,50,0,0,"401, 2101, 1802"
+Pass,High pass,74,7,91,12,1801
+Pass,Simple pass,79,88,98,95,1801
+Free Kick,Corner,100,100,93,47,"801, 1802"
+Pass,Simple pass,77,19,89,5,1801
+Duel,Ground attacking duel,68,22,61,18,"503, 703, 1801"
+Others on the ball,Acceleration,61,18,80,21,1801
+Duel,Ground attacking duel,80,21,71,32,"503, 701, 1802"
+Pass,Cross,88,15,100,79,"402, 801, 1802"
+Pass,Simple pass,71,42,74,40,1801
+Pass,Simple pass,34,19,35,71,1801
+Pass,Simple pass,67,38,67,54,1801
+Pass,Simple pass,67,46,78,78,1801
+Free Kick,Corner,100,100,88,55,"302, 801, 1801"
+Pass,Smart pass,51,30,67,42,1801
+Pass,Simple pass,66,36,53,51,1801
+Pass,Simple pass,69,33,71,75,1801
+Pass,Simple pass,42,15,12,32,1801
+Pass,High pass,57,31,80,100,1802
+Duel,Ground attacking duel,68,74,68,71,"702, 1801"
+Pass,Simple pass,68,71,71,55,1801
+Pass,Cross,77,85,100,16,"402, 801, 1802"
+Pass,Simple pass,47,24,57,26,1801
+Free Kick,Corner,100,100,94,60,"801, 1801"
+Pass,Simple pass,34,71,30,48,"1401, 1801"
+Duel,Ground defending duel,64,11,68,9,"703, 1801"
+Pass,Simple pass,68,9,30,8,1801
+Pass,Simple pass,71,30,72,37,1801
+Pass,Simple pass,72,37,55,47,1801
+Pass,Simple pass,69,31,67,37,1801
+Others on the ball,Touch,69,55,79,51,
+Duel,Ground loose ball duel,79,51,74,65,"701, 1802"
+Pass,Smart pass,73,45,78,46,1801
+Duel,Ground attacking duel,78,46,97,75,"703, 1801"
+Pass,Simple pass,43,10,44,33,1801
+Free Kick,Throw in,65,0,38,33,1801
+Duel,Ground attacking duel,89,25,91,25,"502, 703, 1801"
+Pass,Cross,91,25,89,83,"401, 801, 1801"
+Pass,Simple pass,69,42,57,48,1801
+Pass,Simple pass,74,22,74,20,1801
+Pass,Simple pass,41,11,92,53,"1001, 1802"
+Shot,Shot,78,58,100,100,"402, 2101, 201, 1802"
+Free Kick,Corner,100,100,87,55,"801, 1801"
+Pass,Simple pass,70,69,53,76,1801
+Pass,Smart pass,78,79,41,64,1801
+Pass,Simple pass,75,47,71,77,1801
+Free Kick,Corner,100,100,93,39,"801, 1802"
+Pass,Simple pass,68,51,74,68,1801
+Duel,Ground loose ball duel,93,62,90,56,"702, 1801"
+Free Kick,Corner,100,100,92,86,1801
+Pass,Cross,91,86,100,100,"402, 2101, 1802"
+Free Kick,Throw in,95,100,68,80,1801
+Duel,Ground loose ball duel,70,64,66,63,"702, 1801"
+Duel,Ground attacking duel,69,63,78,60,"502, 703, 1801"
+Shot,Shot,78,60,100,100,"401, 201, 1210, 1802"
+Pass,Simple pass,72,53,71,89,1801
+Free Kick,Corner,100,100,95,47,"801, 1801"
+Pass,Simple pass,71,68,75,69,1801
+Others on the ball,Acceleration,65,29,77,25,1801
+Duel,Ground attacking duel,77,25,75,17,"701, 1802"
+Pass,Simple pass,74,29,73,53,1801
+Others on the ball,Acceleration,77,19,89,25,1801
+Duel,Ground attacking duel,89,25,89,61,"701, 1802"
+Pass,High pass,43,48,79,100,1802
+Pass,Simple pass,37,21,40,31,1801
+Free Kick,Penalty,90,50,94,42,"101, 402, 1205, 1801"
+Duel,Air duel,10,34,9,56,"701, 1802"
+Pass,Simple pass,46,47,44,84,1801
+Pass,High pass,43,18,97,5,1801
+Pass,Simple pass,37,32,35,6,1801
+Pass,Simple pass,46,9,43,20,1801
+Pass,Simple pass,51,7,35,7,1801
+Free Kick,Free kick cross,69,28,91,52,"801, 1801"
+Pass,High pass,56,28,80,68,1801
+Duel,Ground attacking duel,57,17,72,16,"502, 703, 1801"
+Duel,Ground attacking duel,72,16,66,27,"501, 703, 1801"
+Pass,Simple pass,66,27,72,92,1801
+Pass,Simple pass,57,25,63,43,1801
+Pass,Simple pass,63,39,69,59,1801
+Pass,Simple pass,64,50,74,90,1801
+Free Kick,Corner,100,100,90,55,"801, 1801"
+Pass,Simple pass,43,79,33,67,1801
+Duel,Ground attacking duel,75,85,84,98,"501, 703, 1801"
+Pass,Simple pass,84,98,81,94,1801
+Free Kick,Corner,100,100,94,48,"801, 1801"
+Pass,Simple pass,41,58,58,24,1801
+Pass,Simple pass,61,18,68,27,1801
+Pass,Simple pass,45,45,34,12,1801
+Pass,Simple pass,62,34,55,50,1801
+Pass,Simple pass,64,24,73,24,1801
+Duel,Air duel,91,38,91,46,"701, 1802"
+Free Kick,Corner,100,100,91,41,"801, 1801"
+Pass,Simple pass,44,36,57,23,1801
+Pass,Simple pass,30,5,22,18,"1901, 1801"
+Free Kick,Corner,100,1,0,0,"801, 1802"
+Pass,Cross,87,8,98,72,"402, 801, 1801"
+Pass,Simple pass,70,36,66,52,1801
+Duel,Ground defending duel,33,93,34,89,"703, 1801"
+Pass,Simple pass,33,60,56,25,1801
+Pass,Simple pass,31,50,43,45,1801
+Pass,Simple pass,39,56,46,17,1801
+Pass,Simple pass,56,77,69,81,1801
+Pass,Simple pass,51,55,63,16,1801
+Duel,Ground attacking duel,68,21,64,18,"503, 701, 1802"
+Pass,Simple pass,45,10,48,26,1801
+Pass,Smart pass,41,35,66,42,1802
+Pass,High pass,48,44,85,98,1801
+Shot,Shot,76,57,0,0,"402, 201, 1215, 1802"
+Duel,Ground attacking duel,71,44,64,51,"503, 602, 701, 1802"
+Pass,Simple pass,46,71,77,100,1802
+Pass,Simple pass,47,47,64,5,1801
+Pass,Simple pass,31,52,44,21,1801
+Pass,Simple pass,64,20,67,4,1801
+Pass,Simple pass,47,52,42,8,1801
+Pass,Simple pass,49,44,64,40,1801
+Duel,Ground defending duel,54,38,62,49,"702, 1801"
+Duel,Ground attacking duel,66,45,70,45,"703, 1801"
+Free Kick,Free Kick,65,37,66,14,1801
+Pass,Simple pass,71,63,65,51,1801
+Shot,Shot,86,59,0,0,"402, 201, 1216, 1802"
+Pass,Simple pass,49,11,59,21,1801
+Pass,Simple pass,55,13,62,26,1801
+Pass,Simple pass,63,84,60,82,1802
+Pass,Simple pass,42,91,33,65,1801
+Pass,Simple pass,69,63,90,74,1801
+Pass,Cross,76,71,93,43,"402, 801, 1801"
+Pass,Simple pass,60,63,75,85,1801
+Pass,Simple pass,69,36,68,7,1801
+Duel,Ground defending duel,27,93,19,92,"501, 701, 1802"
+Pass,Simple pass,70,66,81,95,1801
+Pass,Simple pass,63,85,65,69,1802
+Pass,Simple pass,37,71,33,6,1801
+Duel,Ground defending duel,70,48,65,30,"701, 1802"
+Pass,Simple pass,27,39,31,46,"1401, 1802"
+Duel,Ground defending duel,21,9,34,14,"702, 1801"
+Pass,Simple pass,19,10,27,6,1801
+Pass,Simple pass,70,62,76,83,1801
+Pass,Simple pass,72,68,78,97,1801
+Pass,Simple pass,63,36,70,67,1801
+Others on the ball,Touch,63,72,66,79,
+Duel,Ground defending duel,66,79,68,65,"702, 1801"
+Pass,Simple pass,54,48,43,69,1801
+Pass,Simple pass,55,51,74,16,1802
+Pass,Simple pass,45,72,47,95,1801
+Pass,Simple pass,59,85,54,79,1802
+Pass,Simple pass,46,69,46,28,1801
+Pass,Simple pass,62,73,73,86,1801
+Duel,Ground attacking duel,71,83,70,95,"503, 702, 1801"
+Pass,Simple pass,69,94,70,56,1801
+Pass,High pass,46,59,87,11,1801
+Others on the ball,Touch,71,65,72,65,
+Duel,Ground loose ball duel,72,65,70,78,"701, 1802"
+Duel,Ground loose ball duel,69,72,69,82,"701, 1802"
+Free Kick,Corner,100,0,95,34,"801, 1802"
+Duel,Ground attacking duel,80,10,74,27,"501, 703, 1801"
+Pass,Cross,74,27,96,67,"402, 801, 1802"
+Pass,Simple pass,65,77,61,95,1801
+Others on the ball,Touch,31,84,41,88,
+Pass,Simple pass,55,54,71,95,1801
+Pass,Simple pass,66,56,74,92,1801
+Pass,Simple pass,64,32,62,9,1801
+Pass,Simple pass,64,46,63,66,1801
+Pass,Simple pass,65,51,66,94,1801
+Pass,Simple pass,42,64,60,27,1801
+Pass,Simple pass,37,24,61,81,1801
+Pass,Simple pass,65,17,74,5,1801
