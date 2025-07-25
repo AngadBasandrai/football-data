@@ -4,6 +4,7 @@ import codecs
 import math
 import pandas as pd
 from collections import defaultdict
+from statistics import mean, stdev
 
 # === SETTINGS ===
 DATA_DIR = "./"
@@ -18,28 +19,16 @@ ASSIST_TAG_ID = 302
 FREE_KICK_TAG_ID = 801
 
 WEIGHTS = {
-    "passing_accuracy": 0.45,
-    "avg_passes_per_game": 0.2,
+    "passing_accuracy": 0.55,
+    "avg_passes_per_game": 0.32,
     "through_pass_accuracy": 0.06,
     "freekick_accuracy": 0.04,
-    "assists_per_game": 0.1,
-    "passing_consistency": 0.23,
-    "turnover_rate": -0.05,
-    "games_played_bonus": 0.3,
+    "assists_per_game": 0.18,
+    "passing_consistency": 0.10,
+    "turnover_rate": -0.01,
 }
 
-MAX_GAME_BONUS = 0.30
-MIN_GAME_PENALTY = -0.25
-GAMES_FOR_MAX_EFFECT = 30
-
-SMOOTH_PRIORS = {
-    "pass_acc": (0.75, 30),
-    "freekick_acc": (0.7, 10),
-    "through_pass_acc": (0.55, 15),
-}
-
-def smooth_ratio(success, total, prior_mean, prior_weight):
-    return (success + prior_mean * prior_weight) / (total + prior_weight)
+PRIOR_GAMES = 20
 
 def calculate_consistency(attempts_per_match, success_per_match):
     accs = []
@@ -50,10 +39,10 @@ def calculate_consistency(attempts_per_match, success_per_match):
             accs.append(suc / att)
     if len(accs) < 2:
         return 1.0
-    mean = sum(accs) / len(accs)
-    variance = sum((a - mean) ** 2 for a in accs) / (len(accs) - 1)
+    mean_acc = sum(accs) / len(accs)
+    variance = sum((a - mean_acc) ** 2 for a in accs) / (len(accs) - 1)
     stddev = math.sqrt(variance)
-    return max(0.0, 1.0 - stddev / mean if mean else 0.0)
+    return max(0.0, 1.0 - stddev / mean_acc if mean_acc else 0.0)
 
 def csv_escape(s):
     s = str(s)
@@ -67,7 +56,7 @@ with open(PLAYERS_FILE, encoding="utf-8") as f:
 players = {}
 for p in players_raw:
     pid = p["wyId"]
-    name = p.get("shortName") or f'{p.get("firstName", "")} {p.get("lastName", "")}'.strip()
+    name = p.get("shortName") or f'{p.get("firstName", "")} {p.get("lastName", "").strip()}'
     if "\\u" in name:
         try:
             name = codecs.decode(name, "unicode_escape")
@@ -138,79 +127,72 @@ for ef in event_files:
 
 print(f"Processed {total_events} events.")
 
-# === Compute normalization baselines ===
-max_avg_pg = 0
-max_assists_pg = 0
-
-for pid, s in stats.items():
-    games = len(s["matches"])
-    if games == 0:
-        continue
-    avg_pg = s["pass_total"] / games
-    assists_pg = s["assist_total"] / games
-    max_avg_pg = max(max_avg_pg, avg_pg)
-    max_assists_pg = max(max_assists_pg, assists_pg)
-
-# === Rating calculation ===
+# === Collect raw component values ===
 print("Calculating ratings...")
-output_lines = ["Player,PrimaryPosition,Games,PassAcc,AvgPassGame,throughPassAcc,FreeKickAcc,AssistsPerGame,Consistency,TurnoverRate,Rating"]
-player_data = []
+component_values = defaultdict(list)
+player_components = {}
 
 for pid, s in stats.items():
-    name = players.get(pid, f"Player {pid}")
-    pos = primary_position.get(pid, "Unknown")
     games_played = len(s["matches"])
     if games_played == 0:
         continue
 
-    pass_acc = smooth_ratio(s["pass_success"], s["pass_total"], *SMOOTH_PRIORS["pass_acc"])
-    through_acc = smooth_ratio(s["through_pass_success"], s["through_pass_total"], *SMOOTH_PRIORS["through_pass_acc"])
-    freekick_acc = smooth_ratio(s["freekick_pass_success"], s["freekick_pass_total"], *SMOOTH_PRIORS["freekick_acc"])
-    turnover_rate = 1 - pass_acc
-    avg_pg = s["pass_total"] / games_played
-    assists_pg = s["assist_total"] / games_played
-    consistency = calculate_consistency(s["pass_attempts_per_match"], s["pass_success_per_match"])
-    norm_avg_pg = avg_pg / max_avg_pg if max_avg_pg else 0
-    norm_assists = assists_pg / max_assists_pg if max_assists_pg else 0
+    raw_pass_acc = s["pass_success"] / s["pass_total"] if s["pass_total"] > 0 else 0
+    raw_through_acc = s["through_pass_success"] / s["through_pass_total"] if s["through_pass_total"] > 0 else 0
+    raw_freekick_acc = s["freekick_pass_success"] / s["freekick_pass_total"] if s["freekick_pass_total"] > 0 else 0
+    raw_assists_pg = s["assist_total"] / games_played
+    raw_avg_pg = s["pass_total"] / games_played
+    raw_consistency = calculate_consistency(s["pass_attempts_per_match"], s["pass_success_per_match"])
+    raw_turnover_rate = 1 - raw_pass_acc
 
-    rating = (
-        WEIGHTS["passing_accuracy"] * pass_acc +
-        WEIGHTS["avg_passes_per_game"] * norm_avg_pg +
-        WEIGHTS["through_pass_accuracy"] * through_acc +
-        WEIGHTS["freekick_accuracy"] * freekick_acc +
-        WEIGHTS["assists_per_game"] * norm_assists +
-        WEIGHTS["passing_consistency"] * consistency +
-        WEIGHTS["turnover_rate"] * turnover_rate
-    )
+    components = {
+        "pass_acc": raw_pass_acc,
+        "through_acc": raw_through_acc,
+        "freekick_acc": raw_freekick_acc,
+        "assists_pg": raw_assists_pg,
+        "avg_pg": raw_avg_pg,
+        "consistency": raw_consistency,
+        "turnover_rate": raw_turnover_rate,
+    }
 
-    if games_played < 5:
-        game_bonus = MIN_GAME_PENALTY
-    elif games_played >= GAMES_FOR_MAX_EFFECT:
-        game_bonus = MAX_GAME_BONUS
-    else:
-        game_bonus = MAX_GAME_BONUS * (games_played / GAMES_FOR_MAX_EFFECT)
+    for k, v in components.items():
+        component_values[k].append(v)
+    player_components[pid] = (components, games_played)
 
-    rating += WEIGHTS["games_played_bonus"] * game_bonus
-    scaled_rating = min(100.0, max(0.0, rating * 100))
+component_means = {k: mean(v) for k, v in component_values.items()}
+component_stdevs = {k: stdev(v) if len(v) > 1 else 1.0 for k, v in component_values.items()}
+
+key_mapping = {
+    "pass_acc": "passing_accuracy",
+    "avg_pg": "avg_passes_per_game",
+    "through_acc": "through_pass_accuracy",
+    "freekick_acc": "freekick_accuracy",
+    "assists_pg": "assists_per_game",
+    "consistency": "passing_consistency",
+    "turnover_rate": "turnover_rate",
+}
+
+output_lines = ["Player,PrimaryPosition,Games," + ",".join(component_values.keys()) + ",Rating"]
+
+for pid, (components, games_played) in player_components.items():
+    shrinkage = games_played / (games_played + PRIOR_GAMES)
+    z_components = {
+        k: ((components[k] - component_means[k]) / (component_stdevs[k] or 1.0)) * shrinkage
+        for k in components
+    }
+
+    score = sum(WEIGHTS.get(key_mapping.get(k, k), 0) * z_components[k] for k in z_components)
+    scaled_rating = min(100.0, max(0.0, 80 + score * 10))
 
     output_lines.append(",".join([
-        csv_escape(name),
-        pos,
+        csv_escape(players.get(pid, f"Player {pid}")),
+        primary_position.get(pid, "Unknown"),
         str(games_played),
-        f"{pass_acc:.3f}",
-        f"{avg_pg:.2f}",
-        f"{through_acc:.3f}",
-        f"{freekick_acc:.3f}",
-        f"{assists_pg:.3f}",
-        f"{consistency:.3f}",
-        f"{turnover_rate:.3f}",
-        f"{scaled_rating:.1f}"
-    ]))
+    ] + [f"{components[k]:.3f}" for k in component_values] + [f"{scaled_rating:.2f}"]))
 
 print(f"Writing output to {OUTPUT_FILE} ...")
 os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-    for line in output_lines:
-        f.write(line + "\n")
+    f.write("\n".join(output_lines))
 
 print("Done.")

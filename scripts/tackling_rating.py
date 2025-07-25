@@ -27,9 +27,6 @@ WEIGHTS = {
     "fouls_pg": -0.04,
 }
 
-MAX_GAME_BONUS = 0.8
-MIN_GAME_PENALTY = -0.25
-GAMES_FOR_MAX_EFFECT = 50
 PRIOR_WEIGHT_K = 15
 
 # === Helper functions ===
@@ -191,11 +188,6 @@ for pid, s in stats.items():
     antir = smooth_ratio(s["anticipations"], s["anticipations"] + s["anticipated"])
     consistency = calculate_consistency(s["ground_duels_match"], s["ground_duels_won_match"])
 
-    game_bonus = (
-        MAX_GAME_BONUS if games >= GAMES_FOR_MAX_EFFECT
-        else MIN_GAME_PENALTY if games < 5
-        else MAX_GAME_BONUS * (games / GAMES_FOR_MAX_EFFECT)
-    )
 
     raw = (
         WEIGHTS["ground_duel_acc"] * ground_acc +
@@ -207,8 +199,7 @@ for pid, s in stats.items():
         WEIGHTS["interceptions_pg"] * (int_pg / avg_interceptions_pg if avg_interceptions_pg else 0) +
         WEIGHTS["anticipation_ratio"] * antir +
         WEIGHTS["consistency"] * consistency +
-        WEIGHTS["fouls_pg"] * f_pg +
-        game_bonus
+        WEIGHTS["fouls_pg"] * f_pg
     )
 
     raw_ratings[pid] = raw
@@ -227,7 +218,7 @@ std_raw = stdev(all_scores)
 normalized_ratings = {}
 for pid, raw in raw_ratings.items():
     z = (raw - mean_raw) / std_raw if std_raw else 0
-    score = 65 + 10 * z
+    score = 75 + 10 * z
     normalized_ratings[pid] = max(0.0, min(100.0, score))
 
 avg_score = mean(normalized_ratings.values())

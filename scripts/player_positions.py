@@ -11,39 +11,33 @@ EVENTS_DIR = "./events"
 PLAYERS_FILE = "./data/players.json"
 OUTPUT_FILE = "./positions/player_positions.csv"
 
-# Tactical role coordinates
 ROLE_CENTERS = {
     "gk": (5, 50),        # Goalkeeper
 
     # Defenders
     "cb": (20, 50),
-    "rcb": (22, 44),      # Symmetrical spread around center
-    "lcb": (22, 56),
-    "rb": (26, 30),       # Modern fullback slightly tucked in
-    "lb": (26, 70),
+    "rb": (26, 22),
+    "lb": (26, 78),
 
     # Defensive Midfielder
-    "cdm": (35, 50),
+    "cdm": (40, 50),
 
     # Central Midfielders
-    "cm": (48, 50),
-    "rcm": (48, 43),
-    "lcm": (48, 57),
+    "cm": (47, 50),
+    "rcm": (47, 42),
+    "lcm": (47, 58),
 
     # Attacking Midfielders
-    "cam": (58, 50),
-    "ram": (58, 37),      # Symmetric offset
-    "lam": (58, 63),
+    "cam": (55, 50),
+    "ram": (55, 40),
+    "lam": (55, 60),
 
     # Wingers
-    "rw": (70, 25),
-    "lw": (70, 75),
+    "rw": (69, 34),
+    "lw": (69, 66),
 
-    # Strikers / Forwards
+    # Striker
     "st": (76, 50),
-    "rs": (76, 42),
-    "ls": (76, 58),
-
 }
 
 # Events to skip

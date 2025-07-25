@@ -35,7 +35,7 @@ CARRY_DISTANCE_THRESHOLD = 20.0  # meters
 def boost(score, a=1):
     base = 100 * score / (score + 1.3)
     if score > 7:
-        rating = base + math.log2(score - 6) * 3  # Stretch top
+        rating = base + math.log2(score - 6) * 3  # Stretch  top
     else:
         rating = base
     return rating

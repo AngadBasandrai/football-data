@@ -15,41 +15,35 @@ ROLE_CENTERS = {
 
     # Defenders
     "cb": (20, 50),
-    "rcb": (22, 44),      # Symmetrical spread around center
-    "lcb": (22, 56),
-    "rb": (26, 30),       # Modern fullback slightly tucked in
-    "lb": (26, 70),
+    "rb": (26, 22),
+    "lb": (26, 78),
 
     # Defensive Midfielder
-    "cdm": (35, 50),
+    "cdm": (40, 50),
 
     # Central Midfielders
-    "cm": (48, 50),
-    "rcm": (48, 43),
-    "lcm": (48, 57),
+    "cm": (47, 50),
+    "rcm": (47, 42),
+    "lcm": (47, 58),
 
     # Attacking Midfielders
-    "cam": (58, 50),
-    "ram": (58, 37),      # Symmetric offset
-    "lam": (58, 63),
+    "cam": (55, 50),
+    "ram": (55, 40),
+    "lam": (55, 60),
 
     # Wingers
-    "rw": (70, 25),
-    "lw": (70, 75),
+    "rw": (69, 34),
+    "lw": (69, 66),
 
-    # Strikers / Forwards
+    # Striker
     "st": (76, 50),
-    "rs": (76, 42),
-    "ls": (76, 58),
-
 }
 
-# Role category mapping
 CATEGORY_TO_ROLES = {
     "gk": {"gk"},
-    "df": {"rcb", "rb", "lcb", "lb", "cb"},
+    "df": {"rb", "lb", "cb"},
     "md": {"cdm", "rcm", "lcm", "cam", "ram", "lam", "cm"},
-    "fw": {"ls", "rs", "st", "rw", "lw"},
+    "fw": {"st", "rw", "lw"},
 }
 
 ROLE_MAP = {
@@ -121,10 +115,15 @@ for player_id, group in df.groupby("playerId"):
     # Category-based best-fit
     category = player_id_to_type.get(player_id, "unknown")
     allowed_roles = CATEGORY_TO_ROLES.get(category, ROLE_CENTERS.keys())
-    best_fit = min(
-        ((role, ROLE_CENTERS[role]) for role in allowed_roles if role in ROLE_CENTERS),
-        key=lambda item: dist(centroid, item[1])
-    )[0]
+
+    if raw_best_fit in allowed_roles:
+        best_fit = raw_best_fit
+    else:
+        # ✅ Reverted: compare centroid directly with allowed role centroids
+        best_fit = min(
+            ((role, ROLE_CENTERS[role]) for role in allowed_roles if role in ROLE_CENTERS),
+            key=lambda item: dist(centroid, item[1])
+        )[0]
 
     records.append({
         "playerId": player_id,

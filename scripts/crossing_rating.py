@@ -37,7 +37,7 @@ WEIGHTS = {
 MAX_GAME_BONUS = 0.25
 MIN_GAME_PENALTY = -0.2
 GAMES_FOR_MAX_EFFECT = 30
-PRIOR_WEIGHT_K = 20  # For Bayesian smoothing
+PRIOR_WEIGHT_K = 15  # For Bayesian smoothing
 
 SMOOTH_PRIORS = {
     "cross_acc": (0.4, 20),

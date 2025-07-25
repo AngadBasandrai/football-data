@@ -28,13 +28,9 @@ WEIGHTS = {
     "freekick_accuracy": 0.05,
     "consistency": 0.15,
     "turnover_rate": -0.03,
-    "games_played_bonus": 0.3,
 }
 
-MAX_GAME_BONUS = 0.25
-MIN_GAME_PENALTY = -0.2
-GAMES_FOR_MAX_EFFECT = 30
-PRIOR_WEIGHT_K = 20  # For Bayesian shrinkage on final rating
+PRIOR_WEIGHT_K = 15  # For Bayesian shrinkage on final rating
 
 SMOOTH_PRIORS = {
     "long_pass_acc": (0.6, 20),
@@ -171,20 +167,13 @@ for pid, s in stats.items():
     turnover = 1 - long_acc
     consistency = calculate_consistency(s["long_pass_attempts_per_match"], s["long_pass_success_per_match"])
 
-    game_bonus = (
-        MAX_GAME_BONUS if games >= GAMES_FOR_MAX_EFFECT
-        else MIN_GAME_PENALTY if games < 5
-        else MAX_GAME_BONUS * (games / GAMES_FOR_MAX_EFFECT)
-    )
-
     rating = (
         WEIGHTS["long_pass_accuracy"] * long_acc +
         WEIGHTS["long_THROUGH_PASS_accuracy"] * through_acc +
         WEIGHTS["long_pass_assists"] * assists_pg +
         WEIGHTS["freekick_accuracy"] * freekick_acc +
         WEIGHTS["consistency"] * consistency +
-        WEIGHTS["turnover_rate"] * turnover +
-        WEIGHTS["games_played_bonus"] * game_bonus
+        WEIGHTS["turnover_rate"] * turnover
     )
 
     raw_ratings[pid] = rating
